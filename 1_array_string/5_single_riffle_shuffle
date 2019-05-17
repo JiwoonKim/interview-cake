@@ -1,9 +1,7 @@
 /**
- *  R
+ *  Determine whether the shuffled deck is 
  *  Time Complexity: O(n)
- *  Space Complexity: O(n)
- * 
- *  * What I learned:
+ *  Space Complexity: O(1)
  */
 
 #include <string>

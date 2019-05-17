@@ -23,7 +23,7 @@
  * 
  *  * What I Learned:
  * 
- *    1) use a simpler version of the problem to see if that gets us closer to a solution for the original problem
+ *    ** use a simpler version of the problem to see if that gets us closer to a solution for the original problem
  *       - using a simpler version of the problem does not mean shortening the problem or using simpler examples
  *       - instead, it means to use the solution to a simpler version as a strategy to resolve a certain issue within the original problem
  *       => use a simpler version to reach a sub-solution to the problem
