@@ -1,13 +1,15 @@
 /**
  *  Reverses the string in-place
  *  Time Complexity: O(n)
- *  Space Complexity: O(n)
+ *  Space Complexity: O(1)
  * 
- *  What I learned:
- *  1. use two pointers (left & right) for in-place reverse
- *     - use condition (left < right)
- *     - don't forget to left++ & right--
- *  2. check empty case
+ *  * What I learned:
+ * 
+ *    1) use two pointers (left & right) for in-place reverse
+ *      - use condition (left < right)
+ *      - don't forget to left++ & right--
+ * 
+ *    2) check empty case
  * 
  */
 
