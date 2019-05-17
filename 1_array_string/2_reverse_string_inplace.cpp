@@ -24,7 +24,8 @@ void swap(char& c1, char& c2) {
 }
 
 /**
- *  
+ *  reverse the string in-place 
+ *  by swapping outward letters until the middle
  */
 void reverse(string& str) {
 

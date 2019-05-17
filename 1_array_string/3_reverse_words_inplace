@@ -1,0 +1,5 @@
+we reversed all the characters in the message first. This put all the words in the correct spots, but with the characters in each word backward. So to get the final answer, we reversed the characters in each word. This all takes two passes through the message, so O(n)O(n) time total.
+
+This might seem like a blind insight, but we derived it by using a clear strategy:
+
+Solve a simpler version of the problem (in this case, reversing the characters instead of the words), and see if that gets us closer to a solution for the original problem.
