@@ -20,21 +20,25 @@
  * 
  *    2) use map/set for constant lookup time
  * 
- *    ** check pairs while adding to map/set
+ *    ** check pairs in single loop
  *       - instead of first storing all elements in map/set and then checking each element for its match in map/set (=> two sequential loops),
  *       - "check pairs while adding to map/set (=> in single loop)""
  *         -> take advantage that "finding pairs is bi-directional"
  *            (ex. (1, 3) -> can find pair from 1: findOther(1) = 3 
  *                                      or from 3: findOther(3) = 1
- *             => either way results in finding a single pair)
+ *             => either way results in finding a single pair      )
  * 
  *       ** loop over elements once ("check match && store those w/ no match to check later in map/set")
  *          - if (match exists in collection) -> return true
  *          - else -> store for checking later (if there is a match, it will be called on later elements)
  * 
  *       => this prevents pairs with same element used twice (element, sameElement)
+ *          (if duplicates (two elements w/ same value), 
+ *           then one will be stored in collection 
+ *           and the other will be outside, checking if there is duplicate inside collection)
+ *          : ensures that the pair is duplicates and not the same element
  * 
- *          cf) if want to allow duplicates, just add simple condition
+ *          cf) if want to allow same elements to be used in pair, just add simple condition
  *              - if (findOther(element) == element || match exists in collection) -> true
  *              - else -> store for checking later (if there is a match, it will be called on later elements)
  */
