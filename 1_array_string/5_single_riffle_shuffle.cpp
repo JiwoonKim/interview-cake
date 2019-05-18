@@ -5,7 +5,15 @@
  * 
  *  * What I learned:
  * 
- *    1) take advantage of short-circuit evaluation
+ *    1) how handy short-circuit evaluation is
+ *       
+ *       -> ex. if (h1 != end1 && *s == *h1)
+ *          : check first if half1 pointer is at the end (no remaining elements to check in half1)
+ *            and if sure, then proceed to check further conditions
+ * 
+ *       -> makes my code cleaner and organized (as well as my thought process)
+ *       -> helps to avoid missing edge cases!
+ * 
  */
 
 #include <vector>
