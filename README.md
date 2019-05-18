@@ -1,5 +1,5 @@
 # Interview Cake
-> solutions to interview cake questions in each chapter's folder
+> solutions to interview cake questions
 
 ## Tips to Untangling Stucky Moments
 1. `Use a simpler version of the problem`
