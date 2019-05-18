@@ -10,9 +10,12 @@
     - 
 
 ### 1. Array and String Manipulation
-- swap chars in string in-place (2. reverse string inplace)
-- parse words from string (3. reverse words inplace)
-- use sort or take advantage of sort (4. merge sorted arrays & 5. single riffle shuffle)
+1. swap chars in string in-place (1-2. reverse string inplace)
+2. parse words from string (1-3. reverse words inplace)
+3. use sort or take advantage of sort (1-4. merge sorted arrays & 5. single riffle shuffle)
 
 ### 2. Hashing and Hash Tables
-- 
+1. find pairs in single loop (2-1. inflight entertainment)
+    - check match while adding to collection 
+    - (not make collection first, and check match; two sequential loops)
+2. 
