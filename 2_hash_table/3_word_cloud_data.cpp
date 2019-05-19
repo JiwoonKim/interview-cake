@@ -18,6 +18,7 @@
  *      cf) if thought of building the word character by character (using +=),
  *          parsing into words costs O(n^2) time 
  *          (bcuz each time new char is appended -> creates whole new string)
+ * 
  *      => instead, keep track of START INDEX and LENGTH of word: O(n) time
  *         or could use stringstream
  * 
@@ -29,9 +30,13 @@
  *                use an API or other tool that identifies proper nouns, 
  *                ignore case entirely and make every word lowercase,
  *                etc.
- *       => 
+ *       => come up with several solutions, weigh them carefully, and choose the best solution for the given context
  * 
- *    3) use a CLASS: 
+ *    3) take advantage of built-in functions:
+ *       - chars: isalpha(), islower(), isupper(), isdigit(), tolower(), toupper()
+ *       - strings: transform(s.begin(), s.end(), s.begin(), ::tolower),
+ * 
+ *    4) use a CLASS: 
  *       (allows us to tie our methods together, 
  *        calling them on instances of our class INSTEAD OF PASSING REFERENCES)
  * 
@@ -50,9 +55,42 @@ private:
 
     /**
     *  helper function to count frequencies of each word
-    *  ()
+    *  (handles specifics on how to deal w/ uppercase /lowercase words)
     */
     void addWordToHashMap(string word) {
+
+        // if word already exists in hash map,
+        if (wordsToCounts_.count(word) > 0) {
+
+            // increment its count
+            wordsToCounts_[word] += 1;
+        }
+        // if word does not exist,
+        else {
+
+            string lowercaseWord = word;
+            lowercaseWord[0] = tolower(lowercaseWord[0]);
+            string capitalizedWord = word;
+            capitalizedWord[0] = toupper(capitalizedWord[0]);
+
+            // if word is capitalized and lowercase version exists in hash map,
+            if (isupper(word[0]) && wordsToCounts_.count(lowercaseWord) > 0) {
+
+                // include as lowercase version
+                wordsToCounts_[lowercaseWord] += 1;
+            } 
+            // else, if word is lowercase and capitalized version exists in hash map
+            else if (islower(word[0]) && wordsToCounts_.count(capitalizedWord) > 0) {
+
+                // include merge two versions into lowercase version
+                wordsToCounts_[word] = wordsToCounts_[capitalizedWord] + 1;
+                wordsToCounts_.erase(capitalizedWord);
+            } 
+            else {
+                // add to hash map as is
+                wordsToCounts_[word] = 1;
+            }
+        }
     }
 
     /**
