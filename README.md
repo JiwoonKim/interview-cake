@@ -2,8 +2,8 @@
 > solutions to interview cake questions
 
 ## Tips to Untangling Stucky Moments
-1. `Use a Simpler Version of the problem`
-    - __to see if that GETS US CLOSER TO A SOLUTION FOR THE ORIGINAL PROBLEM__
+1. `Use a simpler version of the problem`
+    - __to see if that gets us closer to a solution for the original problem__
     - use the solution to a simpler version __as a strategy to resolve a certain issue__ within the original problem
 2. `Short-circuit evaluation`
     - __stop evaluating a logical expression as soon as the result is certain__
@@ -12,8 +12,8 @@
     - __useful to check for END CASES / EDGE CASES__
     - beautifully ties up the complicated edge cases together in code and __ensures that edge cases are checked before doing something that may mess up the system or memory__
 3. `Use Unordered Map or Unordered Set`
-    - __using an unordered map/set is the MOST COMMON WAY TO IMPROVE FROM A BRUTE FORCE APPROACH__
-    - __it should ALWAYS BE YOUR FIRST THOUGHT!__
+    - __using an unordered map is the most common way to improve from a brute force approach__
+    - __it should always be your first thought!__
 
 ## Useful Functions To Remember
 > list of useful mechanisms (functions) to remember
