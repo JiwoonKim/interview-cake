@@ -21,7 +21,7 @@
  *    2) use map/set for constant lookup time
  *       -> always ask yourself, right from the start: "Can I save time by using an unordered map/set?"
  * 
- *    ** check pairs in single loop
+ *    ** check pairs in single loop (one-pass hash table)
  *       - instead of first storing all elements in map/set and then checking each element for its match in map/set (=> two sequential loops),
  *       - "check pairs while adding to map/set (=> in single loop)""
  *         -> take advantage that "finding pairs is bi-directional"
