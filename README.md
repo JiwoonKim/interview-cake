@@ -6,9 +6,9 @@
     - __most common way to improve from a brute force approach__
     - __it should always be your first thought!__
         - always ask yourself, right from the start: "__Can I save time by using an unordered map or set?__"
-    - use `unordered map` to improve access time to elements
-        - use `unordered set` instead when do not need to store additional data (just need to improve access time to values)
-        - can use `unordered set` also to check like boolean using insert & remove
+    - use `unordered map` to __improve access time to elements__
+    - use `unordered set` instead when do not need to store additional data (just need to improve access time to values)
+        - can also use it to __check like boolean using insert & remove__
 2. `Use a simpler version of the problem`
     - __to see if that gets us closer to a solution for the original problem__
     - use the solution to a simpler version __as a strategy to resolve a certain issue__ within the original problem
@@ -26,7 +26,7 @@
 ## Useful Mechanisms To Remember
 > list of useful mechanisms (functions) to remember
 
-### General
+### 0. General
 1. `Short-circuit evaluation`
     - __stop evaluating a logical expression as soon as the result is certain__
         - ex. if (check1 && check2) -> if check1 is false, don't even bother to check2
