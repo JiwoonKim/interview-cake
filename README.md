@@ -17,6 +17,11 @@
         - always ask yourself, right from the start: "__Can I save time by using an unordered map or set?__"
     - use `unordered map` to improve access time to elements
 
+## Check Bugs
+1. off-by-one errors (ex. indexing)
+2. edge cases
+3. returning values by if-else conditions (ex. 2-1. inflight entertainment)
+
 ## Useful Functions To Remember
 > list of useful mechanisms (functions) to remember
 
@@ -28,5 +33,5 @@
 ### 2. Hashing and Hash Tables
 1. `find pairs in single loop` (2-1. inflight entertainment)
     - a.k.a __one-pass hash table__
-2. `use unordered map` (2-1. inflight entertainment)
-3. `use unordered set instead`
+2. `use unordered set` (2-1. inflight entertainment)
+3. `use unordered set instead` 
