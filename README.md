@@ -25,7 +25,6 @@
 
 ### 2. Hashing and Hash Tables
 1. `find pairs in single loop` (2-1. inflight entertainment)
-    - check match while adding to collection 
-    - (not make collection first, and check match; two sequential loops)
     - a.k.a __one-pass hash table__
-2. `unordered map` 
+2. `make use of unordered map` 
+3. `use unordered set instead`
