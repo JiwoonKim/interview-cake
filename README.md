@@ -40,7 +40,6 @@
 3. `use sort or take advantage of sort` (1-4. merge sorted arrays & 5. single riffle shuffle)
 
 ### 2. Hashing and Hash Tables
-1. `find pairs in single loop` (2-1. inflight entertainment)
-    - a.k.a __one-pass hash table__
-2. `parse words from string` (2-3. word cloud data)
+1. `find pairs in single loop` (2-1. inflight entertainment) a.k.a __one-pass hash table__
+2. `parse words from string (more complex)` (2-3. word cloud data)
 3. `use class ` (2-3. word cloud data)

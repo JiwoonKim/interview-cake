@@ -4,7 +4,7 @@
  *   palindrome = same read forward or backwards)
  * 
  *  Time Complexity: O(n)
- *  Space Complexity: O(1)
+ *  Space Complexity: O(n)
  * 
  *  * What I learned:
  * 
@@ -13,12 +13,11 @@
  *                      hyphenated words, 
  *                      punctuation ( . , ! ? ' () ... ), 
  *                      and edge cases
- *      -> use isalpha()
- * 
+ *      -> use isalpha() and check LENGTH for each word
+ *
  *      cf) if thought of building the word character by character (using +=),
  *          parsing into words costs O(n^2) time 
  *          (bcuz each time new char is appended -> creates whole new string)
- *
  *      => instead, keep track of START INDEX and LENGTH of word: O(n) time
  *         or could use stringstream
  * 
