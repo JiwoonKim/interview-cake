@@ -11,6 +11,9 @@
         - ex. if (check1 || check2) -> if check1 is true, the expression is also true so don't have to check2
     - __useful to check for END CASES / EDGE CASES__
     - beautifully ties up the complicated edge cases together in code and __ensures that edge cases are checked before doing something that may mess up the system or memory__
+3. `Use unordered map`
+    - __using an unordered map is the most common way to improve from a brute force approach__
+    - __it should always be your first thought!__
 
 ## Useful Functions To Remember
 > list of useful mechanisms (functions) to remember
@@ -24,4 +27,5 @@
 1. `find pairs in single loop` (2-1. inflight entertainment)
     - check match while adding to collection 
     - (not make collection first, and check match; two sequential loops)
-2. 
+    - a.k.a __one-pass hash table__
+2. `unordered map` 
