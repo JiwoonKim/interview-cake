@@ -60,10 +60,12 @@ bool hasPalindromePermutation(const string& str) {
         }
     }
 
-    // check for number of no paired alphabets
-    if (str.length() % 2 == 1 && noPairChars.size() == 1) {
-        return true;
-    } else if (str.length() % 2 == 0 && noPairChars.size() == 0) {
+    /** check for number of no paired alphabets
+     *  (if more than one unpaired alphabet, cannot be palindrome
+     *   : even length of string -> no unpaired alphabets
+     *     odd length of string -> only one unpaired alphabet)
+    */ 
+    if (noPairChars.size() <= 1) {
         return true;
     }
     return false;
