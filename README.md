@@ -9,7 +9,7 @@
     - __stop evaluating a logical expression as soon as the result is certain__
         - ex. if (check1 && check2) -> if check1 is false, don't even bother to check2
         - ex. if (check1 || check2) -> if check1 is true, the expression is also true so don't have to check2
-    - __useful to check for END CASES / EDGE CASES__
+    - __useful to check for end cases / edge cases__
     - beautifully ties up the complicated edge cases together in code and __ensures that edge cases are checked before doing something that may mess up the system or memory__
 3. `Use Unordered Map or Unordered Set`
     - __using an unordered map is the most common way to improve from a brute force approach__
