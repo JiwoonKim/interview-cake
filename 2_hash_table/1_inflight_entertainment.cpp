@@ -58,43 +58,6 @@ using namespace std;
  *   => while this does works, the code for making sure the same movie is not used is bit tedious ㅠㅜ
  *      (use two sequential loops + check for same length movies)
  */
-bool canTwoMoviesFillFlight(const vector<int>& movieLengths, int flightLength)
-{
-    // determine if two movies add up to the flight length
-    
-    // check for clearly empty cases
-    if (flightLength < 2 || movieLengths.size() < 2) {
-        return false;
-    }
-    
-    // store movies lengths in multi set data structure
-    multiset<int> movies;
-    for (auto movie : movieLengths) {
-        movies.insert(movie);
-    }
-    
-    // check each movie has a companion movie to match flightLength
-    for (auto movie : movieLengths) {
-        
-        int other = flightLength - movie;
-        
-        // if movie lengths are exactly the same
-        if (other == movie) {
-            
-            // check if there are other movies w/ same length
-            if (movies.count(other) > 1) {
-                return true;
-            } 
-        }
-        // if movie must have different length w/ each other
-        else {
-            if (movies.count(other) > 0) {
-                return true;
-            }
-        } 
-    }
-    return false;
-}
 
 /**
  *  function improved by checking for matches WHILE adding to sets (= one single loop)

@@ -12,8 +12,10 @@
     - __useful to check for end cases / edge cases__
     - beautifully ties up the complicated edge cases together in code and __ensures that edge cases are checked before doing something that may mess up the system or memory__
 3. `Use Unordered Map or Unordered Set`
-    - __using an unordered map is the most common way to improve from a brute force approach__
+    - __most common way to improve from a brute force approach__
     - __it should always be your first thought!__
+        - always ask yourself, right from the start: "__Can I save time by using an unordered map or set?__"
+    - use `unordered map` to improve access time to elements
 
 ## Useful Functions To Remember
 > list of useful mechanisms (functions) to remember
@@ -26,5 +28,5 @@
 ### 2. Hashing and Hash Tables
 1. `find pairs in single loop` (2-1. inflight entertainment)
     - a.k.a __one-pass hash table__
-2. `make use of unordered map` 
+2. `use unordered map` (2-1. inflight entertainment)
 3. `use unordered set instead`
