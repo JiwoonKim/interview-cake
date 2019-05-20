@@ -26,8 +26,8 @@
  *    ** Use Set instead of Map
  *       : instead of counting how many number of counts for each alphabet,
  *         just need to determine WHETHER alphabet has odd counts OR NOT
- *         -> keep track of alphabets that have odd numbers (do not need to store the actual count)
- *            by using SET to collect alphabets with odd counts (push & pop)
+ *         -> keep track of alphabets that have odd numbers (do not need to store the actual count; avoid interger overflow)
+ *            by using SET to collect alphabets with odd counts (insert & erase)
  * 
 */
 
