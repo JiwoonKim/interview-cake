@@ -18,7 +18,7 @@
 2. edge cases
 3. returning values by if-else conditions (ex. 2-1. inflight entertainment)
 
-## Open ended Questions
+## Open ended Questions (Heuristics)
 - some questions involve dealing w/ several approaches (there are no definite answers)
 - compare the approaches' pros and cons (none are perfect)
 - ex. 2-3. word cloud data

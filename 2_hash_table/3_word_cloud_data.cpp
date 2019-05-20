@@ -30,7 +30,7 @@
  *                use an API or other tool that identifies proper nouns, 
  *                ignore case entirely and make every word lowercase,
  *                etc.
- *       => come up with several solutions, weigh them carefully, and choose the best solution for the given context
+ *       => come up with several heuristics, weigh them carefully, and choose the best solution for the given context
  * 
  *    3) take advantage of built-in functions:
  *       - chars: isalpha(), islower(), isupper(), isdigit(), tolower(), toupper()
@@ -46,6 +46,9 @@
 using namespace std;
 
 /**
+ *  Define class WordCloudData
+ *  which contains wordsToCounts_ data = map of frequency of words
+ *  and methods to populate the wordsToCounds data
  *  
 */
 class WordCloudData {
