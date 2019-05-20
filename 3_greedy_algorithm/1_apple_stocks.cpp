@@ -66,6 +66,6 @@ int getMaxProfit(const vector<int>& stockPrices) {
         
     }
     
-    // return max profit value
+    // return max profit value (best answer so far)
     return maxProfit;
 }
