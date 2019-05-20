@@ -23,11 +23,13 @@
  * 
  *    ** check pairs in single loop (one-pass hash table)
  *       - instead of first storing all elements in map/set and then checking each element for its match in map/set (=> two sequential loops),
- *       - "check pairs while adding to map/set (=> in single loop)""
- *         -> take advantage that "finding pairs is bi-directional"
- *            (ex. (1, 3) -> can find pair from 1: findOther(1) = 3 
+ *       -> "check pairs while adding to map/set (=> in single loop)"
+ *           (keep track of items we've seen so far)
+ * 
+ *           -> take advantage that "finding pairs is bi-directional"
+ *              (ex. (1, 3) -> can find pair from 1: findOther(1) = 3 
  *                                      or from 3: findOther(3) = 1
- *             => either way results in finding a single pair      )
+ *              => either way results in finding a single pair      )
  * 
  *       ** loop over elements once ("check match && store those w/ no match to check later in map/set")
  *          - if (match exists in collection) -> return true

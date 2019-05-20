@@ -25,6 +25,8 @@
  *          - generate a sorted vector in O(n) time
  *          - find item that appears the most times
  * 
+ *    cf) common ways to get O(n) runtime: counting, greedy algorithm
+ * 
 */
 
 #include <bits/stdc++.h>
