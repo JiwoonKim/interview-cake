@@ -52,4 +52,5 @@
 4. `define classes to tie methods together` (2-3. word cloud data & 2-5. find duplicate files)
 
 ### 3. Greedy Algorithms
-1. 
+1. `keep additional values to update best answer so far` (2-1. apple stocks) => __greedy algorithm approach__
+2. `compare values in vector` (2-1. apple stocks)
