@@ -37,14 +37,14 @@
     - if the helper function is trivial, you might even get away with never implementing it
 
 ### Check Bugs
-check for common errors
+> check for common errors
 1. off-by-one errors (ex. indexing)
 2. returning values by if-else conditions (ex. 2-1. inflight entertainment)
 3. edge cases -> check input to find edge cases
     - ex. integer: positive/negative cases, division (check if 0)
 
 ### Open ended Questions (Heuristics)
-- some questions involve dealing w/ several approaches (there are no definite answers)
+> some questions involve dealing w/ several approaches (there are no definite answers)
 - compare the approaches' pros and cons (none are perfect)
 - ex. 2-3. word cloud data
 
