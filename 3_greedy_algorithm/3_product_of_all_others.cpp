@@ -32,8 +32,22 @@
  * 
  *    3) clean up code
  *       : see if you can clean up the code for the FOR LOOP
+ *         (not necessary but good practice to make more readable and logical code)
  *        
- *         ex. 
+ *         ex.  a) product[0] = 1;
+ *                 for (int i = 1; i < n; i++) {
+ *                      product[i] = product[i - 1] * nums[i - 1];
+ *                 }
+ * 
+ *              b) productBefore = 1;
+ *                 for (int i = 0; i < n; i++) {
+ *                      product[i] = productBefore;
+ *                      productBefore *= nums[i];
+ *                 }
+ * 
+ *              => 차이: a) based on (i - 1) so needs to loop from 1
+ *                       b) based on productBefore variable so loops from 0 
+ *                          and simply needs to update value each time
  * 
  */
 
