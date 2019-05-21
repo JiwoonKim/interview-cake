@@ -1,7 +1,7 @@
 # Interview Cake
 > solutions to interview cake questions
 
-### Start
+## Start
 1. `Start off w/ Brute-force Method`
     - start off by coming up with slow but correct brute force solution to understand the problem
     - it's __better to have a slower solution than to have no solution at all!__
@@ -36,14 +36,14 @@
         - come back to it later; after the core is developed
     - if the helper function is trivial, you might even get away with never implementing it
 
-## Check Bugs
+### Check Bugs
 check for common errors
 1. off-by-one errors (ex. indexing)
 2. returning values by if-else conditions (ex. 2-1. inflight entertainment)
 3. edge cases -> check input to find edge cases
     - ex. integer: positive/negative cases, division (check if 0)
 
-## Open ended Questions (Heuristics)
+### Open ended Questions (Heuristics)
 - some questions involve dealing w/ several approaches (there are no definite answers)
 - compare the approaches' pros and cons (none are perfect)
 - ex. 2-3. word cloud data
