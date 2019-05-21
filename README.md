@@ -71,10 +71,11 @@
 4. `define classes to tie methods together` (2-3. word cloud data & 2-5. find duplicate files)
 
 ### 3. Greedy Algorithms
-1. `keep additional values to update best answer so far` (2-1. apple stocks) => __greedy algorithm approach__
-2. `compare values in vector` (2-1. apple stocks)
-3. `use nested max / min` (2-2. highest product of 3)
-4. `Fisher-Yates shuffle algorithm` (2-4. inplace shuffle) => __to guarantee uniform distribution__
+1. `keep additional values to update best answer so far` (3-1. apple stocks) => __greedy algorithm approach__
+2. `compare values in vector` (3-1. apple stocks)
+3. `use nested max / min` (3-2. highest product of 3)
+4. `Fisher-Yates shuffle algorithm` (3-4. inplace shuffle) => __to guarantee uniform distribution__
 
 ### 4. Sorting, Searching, and Logarithms
-1. 
+1. `binary search` (4-1. find rotation point)
+2. `use opposite of sorted condition to find pivot point` (4-1. find rotation point)
