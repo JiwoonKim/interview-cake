@@ -55,7 +55,7 @@
 using namespace std;
 
 /**
- * 
+ *  return vector of products of all other numbers except number at that index
 */ 
 vector<int> getProductsOfAllIntsExceptAtIndex(const vector<int>& intVector) {
 
