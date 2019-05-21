@@ -6,7 +6,10 @@
     - __to see if that gets us closer to a solution for the original problem__
     - use the solution to a simpler version __as a strategy to resolve a certain issue__ within the original problem
 - `Use Brute-force Method to start`
-    - 
+    - start off by coming up with slow but correct brute force solution to understand the problem
+    - it's better to have a slower solution than to have no solution at all!
+    - after, __look for repeated work__
+        - optimization usually starts when brainstorming to avoid doing that repeated work
 - `Use Unordered Map or Unordered Set`
     - __most common way to improve from a brute force approach__
     - __it should always be your first thought!__
