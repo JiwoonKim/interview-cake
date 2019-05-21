@@ -24,12 +24,12 @@
  *    ** Throwing Exceptions (for exceptional cases)
  *       : `throw invalid_argument("")`
  * 
- *    cf) Pattern for comparing values in vector
+ *    cf) Pattern for comparing values in vector 유형
  *        ... for (i) 마다 그 다음 (i+1) (n)까지 값 비교 => O(n^2) 대신!
- *        -> (1) i마다 이미 hash table에 있는지 체크
- *               없으면, hash table에 삽입
- *        -> (2) i마다 그전까지의 max 또는 min 값과 연산하여 결과값 매번 업데이트
- *               연산 후, max 또는 min 값 업데이트 (i 값과 비교하여 기록)
+ *        (유형 1) i마다 이미 hash table에 있는지 체크
+ *                없으면, hash table에 삽입
+ *        (유형 2) i마다 그전까지의 max 또는 min 값과 연산하여 결과값 매번 업데이트
+ *                연산 후, max 또는 min 값 업데이트 (i 값과 비교하여 기록)
  *  
  */
 
@@ -62,7 +62,7 @@ int getMaxProfit(const vector<int>& stockPrices) {
         maxProfit = max(maxProfit, potentialProfit);
         
         // update min stock price
-        minPrice = min(minPrice, stockPrices[i]);
+        minPrice = min(minPrice, currentPrice);
         
     }
     
