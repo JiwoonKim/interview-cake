@@ -1,23 +1,27 @@
 # Interview Cake
 > solutions to interview cake questions
 
+### Start
+1. `Start off w/ Brute-force Method`
+    - start off by coming up with slow but correct brute force solution to understand the problem
+    - it's __better to have a slower solution than to have no solution at all!__
+    - after, __look for repeated work__
+        - optimization usually starts when brainstorming to avoid doing that repeated work
+2. `Use the time and space bounds as reference points for optimizations`
+    - check the time / space bounds of current solution and __try patterns w/ better complexities__ to improve current solution
+
 ## Tips to Untangling Stucky Moments
 1. `Use a simpler version of the problem`
     - __to see if that gets us closer to a solution for the original problem__
     - use the solution to a simpler version __as a strategy to resolve a certain issue__ within the original problem
-- `Use Brute-force Method to start`
-    - start off by coming up with slow but correct brute force solution to understand the problem
-    - it's better to have a slower solution than to have no solution at all!
-    - after, __look for repeated work__
-        - optimization usually starts when brainstorming to avoid doing that repeated work
-- `Use Unordered Map or Unordered Set`
+2. `Use Unordered Map or Unordered Set`
     - __most common way to improve from a brute force approach__
     - __it should always be your first thought!__
         - always ask yourself, right from the start: "__Can I save time by using an unordered map or set?__"
     - use `unordered map` to __improve access time to elements__
     - use `unordered set` instead when do not need to store additional data (just need to improve access time to values)
         - can also use it to __check like boolean using insert & remove__
-- `Use Greedy Approach`
+3. `Use Greedy Approach`
     - builds up solution by __choosing the best option so far at every step__
     - should be __one of the first ways to try to break down a question__
         - always ask yourself, right from the start: "__Suppose answer is in updating the best answer so far, what additional values do you need to keep track of in order to update the best answers so far?__
@@ -25,11 +29,19 @@
         - best bet is to __try it out and see if it works__
     - curate __additional values to keep track of__ by __thinking about all the possible input cases (including edge cases)__
     - __come up with a higher-level formula using the additional values__, instead of simply dividing into if-else cases
+4. `Call a Helper Function and Move On`
+    - if you can't immediately think of how to implement some part of your algorithm, big or small, __just skip over it__
+    - write a call to a reasonably-named helper function, __say "this will do X" and keep going__
+    - it's more important to implement the core functionality of the problem (the big picture or higher-level solution) than small bits
+        - come back to it later; after the core is developed
+    - if the helper function is trivial, you might even get away with never implementing it
 
 ## Check Bugs
+check for common errors
 1. off-by-one errors (ex. indexing)
-2. edge cases
-3. returning values by if-else conditions (ex. 2-1. inflight entertainment)
+2. returning values by if-else conditions (ex. 2-1. inflight entertainment)
+3. edge cases -> check input to find edge cases
+    - ex. integer: positive/negative cases, division (check if 0)
 
 ## Open ended Questions (Heuristics)
 - some questions involve dealing w/ several approaches (there are no definite answers)
