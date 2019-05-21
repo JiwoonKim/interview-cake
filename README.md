@@ -30,7 +30,7 @@
     - curate __additional values to keep track of__ by __thinking about all the possible input cases (including edge cases)__
     - __come up with a higher-level formula using the additional values__, instead of simply dividing into if-else cases
 4. `Call a Helper Function and Move On`
-    - if you can't immediately think of how to implement some part of your algorithm, big or small, __just skip over it__
+    - __just skip over it__ if you can't immediately think of how to implement some part of your algorithm, big or small
     - write a call to a reasonably-named helper function, __say "this will do X" and keep going__
     - it's more important to implement the core functionality of the problem (the big picture or higher-level solution) than small bits
         - come back to it later; after the core is developed
