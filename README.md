@@ -18,6 +18,8 @@
         - always ask yourself, right from the start: "__Suppose answer is in updating the best answer so far, what additional values do you need to keep track of in order to update the best answers so far?__
     - careful since greedy algorithm does not guarantee optimal solution
         - best bet is to __try it out and see if it works__
+    - curate __additional values to keep track of__ by __thinking about all the possible input cases (including edge cases)__
+    - __come up with a higher-level formula using the additional values__, instead of simply dividing into if-else cases
 
 ## Check Bugs
 1. off-by-one errors (ex. indexing)
@@ -54,3 +56,4 @@
 ### 3. Greedy Algorithms
 1. `keep additional values to update best answer so far` (2-1. apple stocks) => __greedy algorithm approach__
 2. `compare values in vector` (2-1. apple stocks)
+3. `use nested max / min` (2-2. highest product of 3)
