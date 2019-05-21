@@ -5,14 +5,16 @@
 1. `Use a simpler version of the problem`
     - __to see if that gets us closer to a solution for the original problem__
     - use the solution to a simpler version __as a strategy to resolve a certain issue__ within the original problem
-2. `Use Unordered Map or Unordered Set`
+- `Use Brute-force Method to start`
+    - 
+- `Use Unordered Map or Unordered Set`
     - __most common way to improve from a brute force approach__
     - __it should always be your first thought!__
         - always ask yourself, right from the start: "__Can I save time by using an unordered map or set?__"
     - use `unordered map` to __improve access time to elements__
     - use `unordered set` instead when do not need to store additional data (just need to improve access time to values)
         - can also use it to __check like boolean using insert & remove__
-3. `Use Greedy Approach`
+- `Use Greedy Approach`
     - builds up solution by __choosing the best option so far at every step__
     - should be __one of the first ways to try to break down a question__
         - always ask yourself, right from the start: "__Suppose answer is in updating the best answer so far, what additional values do you need to keep track of in order to update the best answers so far?__
@@ -57,3 +59,4 @@
 1. `keep additional values to update best answer so far` (2-1. apple stocks) => __greedy algorithm approach__
 2. `compare values in vector` (2-1. apple stocks)
 3. `use nested max / min` (2-2. highest product of 3)
+4. `

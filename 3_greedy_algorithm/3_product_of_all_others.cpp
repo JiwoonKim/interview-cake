@@ -14,11 +14,14 @@
  *           = (products of all integers except 1 & 2 & 3) x 2 x 3
  *           ...
  * 
- *           => product of all integers except the integer at each index
+ *           -> product of all integers except the integer at each index
  *              = the product of all integers before each index
  *                * the product of all integers after each index
- *              
- *              (just GREEDILY store each product SO FAR)
+ *           => just GREEDILY store each product SO FAR
+ * 
+ *       => look at WHAT THE SOLUTION ACTUALLY CALCULATES
+ *          and find REPEATED WORK to improve on
+ *          (final answers mostly come from brainstorming ways to avoid doing that repeated work)
  * 
  *    2) space optimization
  *       : see if you can optimize the space,
