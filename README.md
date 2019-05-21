@@ -74,4 +74,4 @@
 1. `keep additional values to update best answer so far` (2-1. apple stocks) => __greedy algorithm approach__
 2. `compare values in vector` (2-1. apple stocks)
 3. `use nested max / min` (2-2. highest product of 3)
-4. `
+4. `Fisher-Yates shuffle algorithm` (2-4. inplace shuffle) => __to guarantee uniform distribution__
