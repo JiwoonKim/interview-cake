@@ -15,7 +15,7 @@
 3. `Use Greedy Approach`
     - builds up solution by __choosing the best option so far at every step__
     - should be __one of the first ways to try to break down a question__
-        - always ask yourself, right from the start: "__Suppose answer is in updating the best answer so far, what additional values need to keep track of in order to update the best answers so far?__
+        - always ask yourself, right from the start: "__Suppose answer is in updating the best answer so far, what additional values do you need to keep track of in order to update the best answers so far?__
     - careful since greedy algorithm does not guarantee optimal solution
         - best bet is to __try it out and see if it works__
 

@@ -7,9 +7,29 @@
  * 
  *  * What I learned:
  * 
- *    - carefully curate ADDITIONAL VALUES to track in order to update BEST ANSWER SO FAR
- *      -> 
+ *    ** carefully curate ADDITIONAL VALUES to keep track of in order to update BEST ANSWER SO FAR
+ *       -> try to think of all the cases (including EDGE CASES) for the INPUTS
+ *         
+ *       ex. highest product of 3 = int * int * int
+ *           -> int can be positive or negative
+ *           -> depending on positive/negative, highest product of 3 calculations differ:
+ *              (1) all positives: highest product of 3 = highest * second highest * third highest
+ *                                                      = highest * highest product of 2
+ *              (2) negatives included: highest product of 3 = highest * highest product of 2
+ *                                                                       -> highest product of 2 = (pos * pos) or (neg * neg)
+ *              (3) all negatives: highest product of 3 = lowest * lowest product of 2
+ *           => keep track of highest, lowest, highest product of 2, lowest product of 2
  * 
+ *    ** focus on the FORUMULA TO DERIVING THE OUTPUT than using if-else conditions for all the cases  
+ *            
+ *       ex. instead of using if-else conditions for when int is positive or negative (gets very complicated and dirty).
+ *           use the FORMULA:
+ *           -> highest product of 2 = (highest * highest product of 2) or (lowest * lowest product of 2)
+ * 
+ *       => try to come up with HIGHER-LEVEL FORMULA
+ * 
+ *    3) take advantage of NESTED MAX / MIN
+ *   
 */
 #include <bits/stdc++.h>
 using namespace std;
