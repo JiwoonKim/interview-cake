@@ -84,3 +84,4 @@
 3. `pigeonhole principle` (4-2. find duplicates - space mode) => try to think of pigeonholes and pigeon analogy: __"what fits into what"__
 
 ### 5. Trees and Graphs
+1.
