@@ -13,9 +13,9 @@
  *    ** BFS vs DFS
  *       -> while both worst-case time and space costs are the same,
  *          DFS + short-circuit could result in a quickier solution
+ *          (use a traversal that will hit leaves as quickly as possible)
  * 
- *      -> since DFS generally hits leaves before BFS, 
- *         take advantage of DFS + short-circuit
+ *      -> since DFS generally hits leaves before BFS, take advantage of DFS + short-circuit
  * 
  *      => be able to EXPLAIN WHY we used BFS/DFS over the other!
  * 
