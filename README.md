@@ -14,6 +14,7 @@
 1. `Use a simpler version of the problem`
     - __to see if that gets us closer to a solution for the original problem__
     - use the solution to a simpler version __as a strategy to resolve a certain issue__ within the original problem
+- `Take a step back and try to break the problem down into subproblems`
 2. `Use Unordered Map or Unordered Set`
     - __most common way to improve from a brute force approach__
     - __it should always be your first thought!__
@@ -77,5 +78,8 @@
 4. `Fisher-Yates shuffle algorithm` (3-4. inplace shuffle) => __to guarantee uniform distribution__
 
 ### 4. Sorting, Searching, and Logarithms
-1. `binary search` (4-1. find rotation point)
+1. `binary search - make sure sorted` (4-1. find rotation point)
 2. `use opposite of sorted condition to find pivot point` (4-1. find rotation point)
+3. `pigeonhole principle` (4-2. find duplicates - space mode)
+
+### 5. Trees and Graphs
