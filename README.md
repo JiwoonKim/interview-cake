@@ -87,4 +87,4 @@
 1. `define binary tree class` (5-1. balanced binary tree)
 2. `DFS to hit leaf nodes in tree faster` (5-1. balanced binary tree)
 3. `use DFS for better space complexity when tree is balanced` (5-2. binary search tree checker)
-4.
+4. `can return combination of bool values for recursive DFS using &&` (5-2. binary search tree checker)
