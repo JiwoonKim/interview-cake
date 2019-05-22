@@ -9,6 +9,7 @@
         - optimization usually starts when brainstorming to avoid doing that repeated work
 2. `Use the time and space bounds as reference points for optimizations`
     - check the time / space bounds of current solution and __try patterns w/ better complexities__ to improve current solution
+    - __starting with a target runtime and working backward from there can be a powerful strategy__ for all kinds of coding interview questions.
 
 ## Tips to Untangling Stucky Moments
 1. `Use a simpler version of the problem`
