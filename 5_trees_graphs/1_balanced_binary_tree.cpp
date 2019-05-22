@@ -19,6 +19,9 @@
  * 
  *      => be able to EXPLAIN WHY we used BFS/DFS over the other!
  * 
+ *    ** use DFS in an ITERATIVE form using a stack
+ *       -> same as BFS but w/ stack instead!
+ * 
  *    ** define class of binary tree
  *       - take a good look at how a binary tree class is structured!
  *       - use it as reference /example for future
