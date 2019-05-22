@@ -112,6 +112,8 @@ bool isBinarySearchTree(const BinaryTreeNode* root) {
 
 /**
  *  recursive version of same solution (DFS)
+ *  (code is cleaner but is VULNERABLE TO STACK OVERFLOW
+ *   bcuz recurison uses the call stack)
 */ 
 bool isBinarySearchTree(const BinaryTreeNode* node, int min = numeric_limits<int>::min(), int max = numeric_limits<int>::max()) {
     
