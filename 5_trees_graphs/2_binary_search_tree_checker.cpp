@@ -31,6 +31,9 @@
  * 
  *    3) define custom data structure (class or struct)
  * 
+ *    4) can return MULTIPLE bool values using &&
+ *       -> 참고) recursive version code below
+ * 
  */
 
 #include <bits/stdc++.h>
@@ -110,32 +113,33 @@ bool isBinarySearchTree(const BinaryTreeNode* root) {
 /**
  *  recursive version of same solution (DFS)
 */ 
-bool isBinarySearchTree(const BinaryTreeNode* node, int min, int max) {
+bool isBinarySearchTree(const BinaryTreeNode* node, int min = numeric_limits<int>::min(), int max = numeric_limits<int>::max()) {
     
     // exit if tree is empty
-    if (root == nullptr) {
-        throw invalid_argument("tree is empty");
+    if (node == nullptr) {
+        throw invalid_argument("node is empty");
     }
     
     // check node is in proper range
-        int curValue = curPtr -> value_;
-        if (curMin >= curValue || curValue >= curMax) {
-            // if not in proper range,
-            return false;
-        }
-        
-        // calculate min and max range for childs and push them to stack
-        int mid = curValue;
-        if (curPtr -> left_) {
-            NodeRange next = NodeRange(curPtr -> left_, curMin, mid);
-            s.push(next);
-        }
-        
-        if (curPtr -> right_) {
-            NodeRange next = NodeRange(curPtr -> right_, mid, curMax);
-            s.push(next);
-        }
+    int curValue = node -> value_;
+    if (min >= curValue || curValue >= max) {
+        // if not in proper range,
+        return false;
     }
+        
+    // calculate min and max range for childs and push them to stack
+    int mid = curValue;
+    
+    bool isRightBST = true;
+    bool isLeftBST = true;
+    if (node -> left_) {
+        isLeftBST = isBinarySearchTree(node -> left_, min, mid);
+    }
+        
+    if (node -> right_) {
+        isRightBST = isBinarySearchTree(node -> right_, mid, max);
+    }
+
     // if all is well, 
-    return true;
+    return (isRightBST && isLeftBST);
 }
