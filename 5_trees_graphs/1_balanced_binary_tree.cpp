@@ -62,19 +62,7 @@ public:
 /**
  *  determine if the tree is superbalanced (DFS solution)
 */ 
-bool isBalancedByDFS(const BinaryTreeNode* treeRoot) {
-      
-    // an empty tree is superbalanced since there are no leaves
-    if (treeRoot == nullptr) {
-        return true;
-    }
-
-}
-
-/**
- *  determine if the tree is superbalanced (BFS solution)
-*/ 
-bool isBalancedByBFS(const BinaryTreeNode* treeRoot) {
+bool isBalanced(const BinaryTreeNode* treeRoot) {
       
     // an empty tree is superbalanced since there are no leaves
     if (treeRoot == nullptr) {
@@ -84,41 +72,42 @@ bool isBalancedByBFS(const BinaryTreeNode* treeRoot) {
     // keep track of min and max depth of leaf nodes
     int minDepth = numeric_limits<int>::max();
     int maxDepth = 0;
-
-    // traverse the given binary tree by BFS
-    queue< pair<const BinaryTreeNode*, int> > q;
-    q.push(make_pair(treeRoot, 0));
     
-    while (!q.empty()) {
+    // traverse the given binary tree by DFS
+    stack<pair<const BinaryTreeNode*, int>> s;
+    s.push(make_pair(treeRoot, 0));
+    
+    while (!s.empty()) {
         
         // pop the current node
-        const BinaryTreeNode* curNode = q.front().first;
-        int curLevel = q.front().second;
-        q.pop();
-
-        // if node is leaf node,
+        const BinaryTreeNode* curNode = s.top().first;
+        int curLevel = s.top().second;
+        s.pop();
+        
+        // if current node is leaf node,
         if (!curNode -> left_ && !curNode -> right_) {
             
-            // update min and max depths of leaf nodes
+            // update max and min depth
             minDepth = min(minDepth, curLevel);
             maxDepth = max(maxDepth, curLevel);
             
-            // check if tree goes against superbalanced condition
+            // check if goes against superbalanced condition
             if (maxDepth - minDepth > 1) {
                 return false;
             }
         }
         
-        // if left node exists, push left node into queue
+        // if left node exists, push left node into stack
         if (curNode -> left_) {
-            q.push(make_pair(curNode -> left_, curLevel + 1));
+            s.push(make_pair(curNode -> left_, curLevel + 1));
         }
         
-        // if right node exists, push right node into queue
+        // if right node exists, push right node into stack
         if (curNode -> right_) {
-            q.push(make_pair(curNode -> right_, curLevel + 1));
+            s.push(make_pair(curNode -> right_, curLevel + 1));
         }
     }
+    
     // if leaf nodes so far have not gone against superbalanced condition,
     return true;
 }
