@@ -20,6 +20,9 @@
  *     (2) cut problem in half a DIFFERENT WAY
  *         -> cut the SET OF POSSIBILITIES for a repeated number along with size
  *         
+ *         ** ANALOGY: pigeonholes (n), pigeons (n+1) 
+ *                     = possible numbers (n), elements (n+1)
+ *         
  *           (1) cut down the pigeonholes range in half and count the number of pigeons that actually fit into those holes
  *           (2) compare the number of pigeonholes vs number of actual pigeons that fit into those holes
  *               - if pigeons > pigeonholes, duplicates exists in current range so recurse/iterate to (1) using the cut-down range
@@ -28,6 +31,9 @@
  *         ** it's possible to use this method bcuz of the PIGEONHOLE PRINCIPLE
  * 
  *      => combine binary search + pigeonhole principle
+ *          
+ *         TIP: try to think of pigeonholes and pigeon analogy
+ *              "what fits into what"
  * 
  * 
  *  * What I learned:

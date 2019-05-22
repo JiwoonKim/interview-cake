@@ -80,6 +80,6 @@
 ### 4. Sorting, Searching, and Logarithms
 1. `binary search - make sure sorted` (4-1. find rotation point)
 2. `use opposite of sorted condition to find pivot point` (4-1. find rotation point)
-3. `pigeonhole principle` (4-2. find duplicates - space mode)
+3. `pigeonhole principle` (4-2. find duplicates - space mode) => try to think of pigeonholes and pigeon analogy: __"what fits into what"__
 
 ### 5. Trees and Graphs
