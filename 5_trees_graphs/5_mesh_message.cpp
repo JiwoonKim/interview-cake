@@ -9,6 +9,9 @@
  *    ** Backtracking to retrieve path
  *       - if record each entire path for each node -> O(n^2) space complexity
  *       - instead, record only BEFORE node and recover path using a BACKTRACKING function
+ *         -> used unordered map to access the before node of each node efficiently
+ *      
+ *       => backtracking + unordered map: useful technique         
  * 
  *    ** Define/clarify Properties of graph BEFORE diving into algorithm
  *       - is it directed or undirected ?
