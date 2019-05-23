@@ -95,4 +95,5 @@
 3. `use DFS for better space complexity when tree is balanced` (5-2. binary search tree checker)
 4. `can return combination of bool values for recursive DFS using &&` (5-2. binary search tree checker)
 5. `how to find element in BST` (5-3. 2nd largest item in BST)
-6. 
+6. `define graph class` (5-4. graph coloring)
+7. 
