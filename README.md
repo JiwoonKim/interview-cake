@@ -11,19 +11,15 @@
     - check the time / space bounds of current solution and __try patterns w/ better complexities__ to improve current solution
     - __starting with a target runtime and working backward from there can be a powerful strategy__ for all kinds of coding interview questions.
 
-## Tips to Untangling Stucky Moments
-1. `Use a simpler version of the problem`
-    - __to see if that gets us closer to a solution for the original problem__
-    - use the solution to a simpler version __as a strategy to resolve a certain issue__ within the original problem
-- `Take a step back and try to break the problem down into subproblems`
-2. `Use Unordered Map or Unordered Set`
+## Optimize
+1. `Use Unordered Map or Unordered Set`
     - __most common way to improve from a brute force approach__
     - __it should always be your first thought!__
         - always ask yourself, right from the start: "__Can I save time by using an unordered map or set?__"
     - use `unordered map` to __improve access time to elements__
     - use `unordered set` instead when do not need to store additional data (just need to improve access time to values)
         - can also use it to __check like boolean using insert & remove__
-3. `Use Greedy Approach`
+2. `Use Greedy Approach`
     - builds up solution by __choosing the best option so far at every step__
     - should be __one of the first ways to try to break down a question__
         - always ask yourself, right from the start: "__Suppose answer is in updating the best answer so far, what additional values do you need to keep track of in order to update the best answers so far?__
@@ -31,7 +27,15 @@
         - best bet is to __try it out and see if it works__
     - curate __additional values to keep track of__ by __thinking about all the possible input cases (including edge cases)__
     - __come up with a higher-level formula using the additional values__, instead of simply dividing into if-else cases
-4. `Call a Helper Function and Move On`
+
+## Tips to Untangling Stucky Moments
+1. `Use a simpler version of the problem`
+    - __to see if that gets us closer to a solution for the original problem__
+    - use the solution to a simpler version __as a strategy to resolve a certain issue__ within the original problem
+    - __simplify, solve, and adapt__ strategy
+2. `Take a step back and try to break the problem down into subproblems`
+    - take a breath: __don't over complicate the problem__
+3. `Call a Helper Function and Move On`
     - __just skip over it__ if you can't immediately think of how to implement some part of your algorithm, big or small
     - write a call to a reasonably-named helper function, __say "this will do X" and keep going__
     - it's more important to implement the core functionality of the problem (the big picture or higher-level solution) than small bits
@@ -89,3 +93,4 @@
 3. `use DFS for better space complexity when tree is balanced` (5-2. binary search tree checker)
 4. `can return combination of bool values for recursive DFS using &&` (5-2. binary search tree checker)
 5. `how to traverse BST` (5-3. 2nd largest item in BST)
+6. 
