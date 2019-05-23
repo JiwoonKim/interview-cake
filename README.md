@@ -3,7 +3,7 @@
 
 ## Start
 1. `Start off w/ Brute-force Method`
-    - start off by coming up with slow but correct brute force solution to understand the problem
+    - start off by coming up with slow but correct brute force solution to __understand the problem__
     - it's __better to have a slower solution than to have no solution at all!__
     - after, __look for repeated work__
         - optimization usually starts when brainstorming to avoid doing that repeated work
@@ -32,9 +32,8 @@
 1. `Use a simpler version of the problem`
     - __to see if that gets us closer to a solution for the original problem__
     - use the solution to a simpler version __as a strategy to resolve a certain issue__ within the original problem
-    - __simplify, solve, and adapt__ strategy
+    - __simplify, solve, and adapt__ strategy => take a breath: __don't over complicate the problem__
 2. `Take a step back and try to break the problem down into subproblems`
-    - take a breath: __don't over complicate the problem__
 3. `Call a Helper Function and Move On`
     - __just skip over it__ if you can't immediately think of how to implement some part of your algorithm, big or small
     - write a call to a reasonably-named helper function, __say "this will do X" and keep going__
@@ -46,8 +45,9 @@
 > check for common errors
 1. off-by-one errors (ex. indexing)
 2. returning values by if-else conditions (ex. 2-1. inflight entertainment)
-3. edge cases -> check input to find edge cases
+3. __Edge Cases__ -> __check input__ to find edge cases
     - ex. integer: positive/negative cases, division (check if 0)
+    - ex. graphs: nodes w/ no edges, cycles, loops (to itself)
 
 ### Open ended Questions (Heuristics)
 > some questions involve dealing w/ several approaches (there are no definite answers)
@@ -64,6 +64,8 @@
         - ex. if (check1 || check2) -> if check1 is true, the expression is also true so don't have to check2
     - __useful to check for end cases / edge cases__
     - beautifully ties up the complicated edge cases together in code and __ensures that edge cases are checked before doing something that may mess up the system or memory__
+2. `Negating condition + break/return values`
+    - 
 
 ### 1. Array and String Manipulation
 1. `swap chars in string in-place` (1-2. reverse string inplace)
@@ -92,5 +94,5 @@
 2. `DFS to hit leaf nodes in tree faster` (5-1. balanced binary tree)
 3. `use DFS for better space complexity when tree is balanced` (5-2. binary search tree checker)
 4. `can return combination of bool values for recursive DFS using &&` (5-2. binary search tree checker)
-5. `how to traverse BST` (5-3. 2nd largest item in BST)
+5. `how to find element in BST` (5-3. 2nd largest item in BST)
 6. 

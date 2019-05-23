@@ -27,7 +27,17 @@
  *  * What I learned:
  * 
  *    ** stick to the SIMPLIFY, SOLVE, and ADAPT strategy
- *       => please, DON'T OVER COMPLICATE THE PROBLEM!
+ *       ; don't over complicate the problem
+ * 
+ *       ** take advantage of using ~NOT to clean up complicated if-else conditions
+ * 
+ *          ex. instead of if (current -> right_)
+ *                             if (current -> right_ -> right_)
+ *                                  move
+ *                             else if (current -> right_ left_) ...
+ *              simplify with if (current -> right && !current -> right -> right) ...
+ * 
+ *          => condition 뒤집어서 실행하여 코드 정리가 가능한지 살펴보기!
  * 
  *    ** Traversing Binary Search Tree 
  *       -> node can have left and right child
