@@ -27,7 +27,8 @@
         - best bet is to __try it out and see if it works__
     - curate __additional values to keep track of__ by __thinking about all the possible input cases (including edge cases)__
     - __come up with a higher-level formula using the additional values__, instead of simply dividing into if-else cases
-3. `
+3. `Use Dynamic Programming Approach`
+    - does not mean to just build from 1 to n
 
 ## Tips to Untangling Stucky Moments
 1. `Use a simpler version of the problem`
@@ -35,6 +36,7 @@
     - use the solution to a simpler version __as a strategy to resolve a certain issue__ within the original problem
     - __simplify, solve, and adapt__ strategy => take a breath: __don't over complicate the problem__
 2. `Take a step back and try to break the problem down into subproblems`
+    - subproblems mean similar smaller problems => they __should be smaller__
 3. `Call a Helper Function and Move On`
     - __just skip over it__ if you can't immediately think of how to implement some part of your algorithm, big or small
     - write a call to a reasonably-named helper function, __say "this will do X" and keep going__
@@ -105,6 +107,7 @@
 
 ### 6. Dynamic Programming & Recursion
 1. `how to create string permutations` (6-1. recursive string permutations)
+2. `how to solve unbounded knapsack problem` (6-3.  & 6-4. cake thief)
 
 ## NP Problems
 - feasible problems: problems solved in polynomial time
