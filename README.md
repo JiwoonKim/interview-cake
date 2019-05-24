@@ -27,6 +27,7 @@
         - best bet is to __try it out and see if it works__
     - curate __additional values to keep track of__ by __thinking about all the possible input cases (including edge cases)__
     - __come up with a higher-level formula using the additional values__, instead of simply dividing into if-else cases
+3. `
 
 ## Tips to Untangling Stucky Moments
 1. `Use a simpler version of the problem`
@@ -104,3 +105,8 @@
 
 ### 6. Dynamic Programming & Recursion
 1.
+
+## NP Problems
+- feasible problems: problems solved in polynomial time
+- intractable problems: solutions taking higher than polynomial time (ex. exponential time)
+    - __NP Problems__: problems w/ non-deterministic polynomial time
