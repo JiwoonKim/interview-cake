@@ -19,6 +19,18 @@
  *           -> this does not guarantee max profit
  *           -> have to check combinations
  * 
+ * 
+ *    ** Keep in mind that in some cases, it MIGHT NOT BE WORTH using optimal dp solution
+ *       : bcuz its realy slow (depends on N of K value)
+ * 
+ *       -> if cared about time and had to move quickly,
+ *          it MIGHT BE WORTH using a faster algorithm that gives us a GOOD ANSWER,
+ *          even if it is NOT ALWAYS the OPTIMAL ANSWER
+ * 
+ *       -> in these cases, it might be worth to use the value/weight sorting method
+ *       
+ *       => SOMETIMES, an efficient & GOOD answer might be MORE PRACTICAL than an inefficient OPTIMAL answer
+ * 
  */
 
 #include <bits/stdc++.h>
