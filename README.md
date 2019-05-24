@@ -100,3 +100,7 @@
 5. `how to find element in BST` (5-3. 2nd largest item in BST)
 6. `define graph class` (5-4. graph coloring)
 7. `backtracking using unordered map` (5-5. mesh message)
+8. `use array positions to find cycles` (5-6. find duplicates - beast edition)
+
+### 6. Dynamic Programming & Recursion
+1.
