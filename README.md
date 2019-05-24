@@ -58,14 +58,17 @@
 > list of useful mechanisms (functions) to remember
 
 ### 0. General
-1. `Short-circuit evaluation`
+1. `Short-circuit Evaluation`
     - __stop evaluating a logical expression as soon as the result is certain__
         - ex. if (check1 && check2) -> if check1 is false, don't even bother to check2
         - ex. if (check1 || check2) -> if check1 is true, the expression is also true so don't have to check2
     - __useful to check for end cases / edge cases__
     - beautifully ties up the complicated edge cases together in code and __ensures that edge cases are checked before doing something that may mess up the system or memory__
-2. `Negating condition + break/return values`
-    - 
+2. `Handle Error Cases first`
+    - create logic to __handle error cases or break conditions first w/ series of if conditions__
+    - __write code in small blocks__ to simplify complex logic
+    - break code into __series of if conditions__ instead of complex nested if-else chains
+    - see if negating the condition and break / return value logic works cleaner or simplier in logic
 
 ### 1. Array and String Manipulation
 1. `swap chars in string in-place` (1-2. reverse string inplace)
