@@ -104,7 +104,7 @@
 8. `use array positions to find cycles` (5-6. find duplicates - beast edition)
 
 ### 6. Dynamic Programming & Recursion
-1.
+1. `how to create string permutations` (6-1. recursive string permutations)
 
 ## NP Problems
 - feasible problems: problems solved in polynomial time
