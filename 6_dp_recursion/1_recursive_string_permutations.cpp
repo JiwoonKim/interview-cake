@@ -4,6 +4,27 @@
  *  Time Complexity: O(n!)
  *  Space Complexity: O(n!)
  * 
+ *  * Stuck Point:
+ *     - had hard time figuring out how to get permutations
+ *       : did manage to figure a solution and code it in about an hour,
+ *         BUT was quite complicated and the answer solution seems much more intuitive and easy
+ *     - struggled bcuz started to break down the problem by n! (n-1)! ... 2! 1!
+ *       : branched each of the letter as the first letter and tried to find all the permutations of the remaining letters 
+ * 
+ *  ** Untangled Hints: JUST ASSUME and WORK FROM THERE!
+ *     - when I had tried to break the problem down by cutting the last letter (did think of this in the beginning) and adding it back later (recursively)
+ *       I stopped bcuz I thought then I would be leaving out other instances where the last letter could be other letters
+ *       so I resolved to taking all the cases for the letters as illustrated in the stuck point...
+ *     - what I didn't think about is to put that last letter in all the positions possible (I just thought of putting it back in last position)
+ *       -> I was confined by the idea that I could only put back letter at the end
+ * 
+ *     => 조합과 순열에 대해 더 공부하면 좋겠다
+ * 
+ *     => Before moving on to another way bcuz a solution seems like a dead-end,
+ *        make sure there aren't any ways to further that solution
+ *        ; you might be on the right track but just missing a certain piece to the solution!!
+ * 
+ * 
  *  * What I learned:
  * 
  *    ** How to create String Permutations
@@ -31,6 +52,8 @@ unordered_set<string> getPermutations(const string& inputString) {
     
     // create set to store permutations
     unordered_set<string> permutations;
+
+    int strLength = inputString.length();
     
     // BASE CASE: string is one letter or empty
     if (strLength <= 1) {
@@ -39,8 +62,6 @@ unordered_set<string> getPermutations(const string& inputString) {
         permutations.insert(inputString);
         return permutations;
     }
-    
-    int strLength = inputString.length();
 
     /** RECURSIVE CASE: 
      *  get the permutations by using the permutations of the string except the last char
