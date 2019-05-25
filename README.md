@@ -126,6 +126,8 @@
 ### 8. Linked Lists
 1. `in-place modifications to delete node` (8-1. delete node)
 2. `two runner approach to check cycle` (8-2. check cycle)
+3. `reverse linked list inplace and outplace` (8-3. reverse linked list in-place)
+4. `use k-wide stick` (8-4. kth to last node)
 
 ## NP Problems
 - feasible problems: problems solved in polynomial time
