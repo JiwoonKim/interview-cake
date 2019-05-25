@@ -59,8 +59,9 @@
 
 ### Open ended Questions (Heuristics)
 > some questions involve dealing w/ several approaches (there are no definite answers)
-- compare the approaches' pros and cons (none are perfect)
-- ex. 2-3. word cloud data
+- compare the approaches' pros and cons => none are perfect! (ex. 2-3. word cloud data)
+- acknowledge that there can be imperfect solutions
+    - it's okay to throw exceptions to cases where you cannot solve due to input constraints (8-1. delete node)
 
 ## Useful Mechanisms To Remember
 > list of useful mechanisms (functions) to remember
@@ -129,4 +130,4 @@
 ## NP Problems
 - feasible problems: problems solved in polynomial time
 - intractable problems: solutions taking higher than polynomial time (ex. exponential time)
-    - __NP Problems__: problems w/ non-deterministic polynomial time
+- __NP Problems__: problems w/ non-deterministic polynomial time
