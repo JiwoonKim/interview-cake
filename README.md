@@ -124,6 +124,7 @@
 
 ### 8. Linked Lists
 1. `in-place modifications to delete node` (8-1. delete node)
+2. `two runner approach to check cycle` (8-2. check cycle)
 
 ## NP Problems
 - feasible problems: problems solved in polynomial time
