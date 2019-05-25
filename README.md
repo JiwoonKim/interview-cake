@@ -53,8 +53,9 @@
 2. returning values by if-else conditions (ex. 2-1. inflight entertainment)
 3. __Edge Cases__ -> __check input__ to find edge cases
     - integer: positive/negative cases, division (check if 0), duplicates
-    - stack/queue: empty cases
     - graphs: nodes w/ no edges, cycles, loops (to itself)
+    - stacks/queues: empty cases
+    - linked lists: head node, last node, prev/current/next node pointing to empty node
 
 ### Open ended Questions (Heuristics)
 > some questions involve dealing w/ several approaches (there are no definite answers)
@@ -122,7 +123,7 @@
 5. `use unordered map to find the matching other pair for something` (7-4. bracket validator)
 
 ### 8. Linked Lists
-1. 
+1. `in-place modifications to delete node` (8-1. delete node)
 
 ## NP Problems
 - feasible problems: problems solved in polynomial time
