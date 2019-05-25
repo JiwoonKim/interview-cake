@@ -115,6 +115,7 @@
 
 ### 7. Stacks and Queues
 1. `make sure not empty when pop / top / front` (7-1. largest stack)
+2. `how to implement queue using two stacks` (7-2. queue with two stacks)
 
 ## NP Problems
 - feasible problems: problems solved in polynomial time

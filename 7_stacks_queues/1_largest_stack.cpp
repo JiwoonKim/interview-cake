@@ -20,7 +20,7 @@
  *       (2) iterate over all elements in stack to find max value
  *           -> adds functionality to getMax method and does not add anything to push & pop methods
  *              -> useful if push & pop operations > getMax operations
- *           -> can also save space costs (no additional stack)
+ *           -> can also save space costs (no additional stack) but has tradeoff of time cost (O(n))
  *           => optimized for fast push & pop methods
  * 
  *       => Be able to COMPARE space & time complexity tradeoffs by considering WHAT IS IMPORTANT
