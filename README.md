@@ -12,6 +12,9 @@
     - __starting with a target runtime and working backward from there can be a powerful strategy__ for all kinds of coding interview questions.
 
 ## Optimize
+0.  `check what we should optimize for`: __time or space?__
+    - efficiency depends on situation: optimization could be for time or space depending on inputs
+    - use the expected characteristics of the input as reference to what we should optimize for
 1. `Use Unordered Map or Unordered Set`
     - __most common way to improve from a brute force approach__
     - __it should always be your first thought!__
