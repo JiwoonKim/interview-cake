@@ -5,6 +5,13 @@
  *  Space Complexity: O(1)
  * 
  *  * What I learned:
+ * 
+ *    1) the trick to many "parsing" questions is to use a stack 
+ *       : to track which brackets/phrases/etc are "open" as you go
+ * 
+ *    2) if there is only one type of opening & closing, can utilize simple COUNT instead of using a stack
+ *       -> saves space
+ * 
  */
 
 #include <bits/stdc++.h>
