@@ -121,6 +121,9 @@
 4. `use unordered set to check if something is part of group or not` (7-4. bracket validator)
 5. `use unordered map to find the matching other pair for something` (7-4. bracket validator)
 
+### 8. Linked Lists
+1. 
+
 ## NP Problems
 - feasible problems: problems solved in polynomial time
 - intractable problems: solutions taking higher than polynomial time (ex. exponential time)

@@ -32,7 +32,7 @@
  *       : cases where you cannot solve due to input constraints
  *       -> the goal is to be able to understand those limits and ask if that is okay
  *       -> further, suggest ways to go around them
- *          : THROW ERRORS IN THOSE CASES!!
+ *       => show understanding and THROW ERRORS IN THOSE CASES!!
  * 
  */
 
