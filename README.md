@@ -39,10 +39,10 @@
     - use the solution to a simpler version __as a strategy to resolve a certain issue__ within the original problem
     - __simplify, solve, and adapt__ strategy => take a breath: __don't over complicate the problem__
 2. `Take a step back and try to break the problem down into subproblems`
-    - subproblems mean similar smaller problems => they __should be smaller__
+    - subproblems mean similar __smaller problems__ => they should be smaller
 3. `Call a Helper Function and Move On`
     - __just skip over it__ if you can't immediately think of how to implement some part of your algorithm, big or small
-    - write a call to a reasonably-named helper function, __say "this will do X" and keep going__
+    - write a call to a reasonably-named __helper function__, __say "this will do X" and keep going__
     - it's more important to implement the core functionality of the problem (the big picture or higher-level solution) than small bits
         - come back to it later; after the core is developed
     - if the helper function is trivial, you might even get away with never implementing it
@@ -52,8 +52,9 @@
 1. off-by-one errors (ex. indexing)
 2. returning values by if-else conditions (ex. 2-1. inflight entertainment)
 3. __Edge Cases__ -> __check input__ to find edge cases
-    - ex. integer: positive/negative cases, division (check if 0)
-    - ex. graphs: nodes w/ no edges, cycles, loops (to itself)
+    - integer: positive/negative cases, division (check if 0), duplicates
+    - stack/queue: empty cases
+    - graphs: nodes w/ no edges, cycles, loops (to itself)
 
 ### Open ended Questions (Heuristics)
 > some questions involve dealing w/ several approaches (there are no definite answers)
@@ -110,7 +111,10 @@
 
 ### 6. Dynamic Programming & Recursion
 1. `how to create string permutations` (6-1. recursive string permutations)
-2. `how to solve unbounded knapsack problem` (6-3.  & 6-4. cake thief)
+2. `how to solve unbounded knapsack problem` (6-3. make change & 6-4. cake thief)
+
+### 7. Stacks and Queues
+1. `make sure not empty when pop / top / front` (7-1. largest stack)
 
 ## NP Problems
 - feasible problems: problems solved in polynomial time
