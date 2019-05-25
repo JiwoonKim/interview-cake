@@ -116,6 +116,8 @@
 ### 7. Stacks and Queues
 1. `make sure not empty when pop / top / front` (7-1. largest stack)
 2. `how to implement queue using two stacks` (7-2. queue with two stacks)
+3. `use stack to check parenthesis` (7-3. parenthesis matching)
+    - if only one kind of parenthesis, `can use count to save space`
 
 ## NP Problems
 - feasible problems: problems solved in polynomial time
