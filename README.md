@@ -80,9 +80,10 @@
     - see if negating the condition and break / return value logic works cleaner or simplier in logic
 
 ### 1. Array and String Manipulation
-1. `swap chars in string in-place` (1-2. reverse string inplace)
-2. `parse words from string` (1-3. reverse words inplace)
-3. `use sort or take advantage of sort` (1-4. merge sorted arrays & 5. single riffle shuffle)
+1. `merge ranges by using sort + check overlapping condition` (1-1. merge meeting times)
+2. `swap chars in string in-place` (1-2. reverse string inplace)
+3. `parse words from string` (1-3. reverse words inplace)
+4. `use sort or take advantage of sort` (1-4. merge sorted arrays & 5. single riffle shuffle)
 
 ### 2. Hashing and Hash Tables
 1. `find pairs in single loop` (2-1. inflight entertainment) a.k.a __one-pass hash table__
