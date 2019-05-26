@@ -2,12 +2,15 @@
 > solutions to interview cake questions
 
 ## Start
-1. `Start off w/ Brute-force Method`
+1. `use simple example to understand the problem`
+    - if needed, even create drawings
+    - helps to __find how to approach the problem__
+2. `Start off w/ Brute-force Method`
     - start off by coming up with slow but correct brute force solution to __understand the problem__
     - it's __better to have a slower solution than to have no solution at all!__
     - after, __look for repeated work__
         - optimization usually starts when brainstorming to avoid doing that repeated work
-2. `Use the time and space bounds as reference points for optimizations`
+3. `Use the time and space bounds as reference points for optimizations`
     - check the time / space bounds of current solution and __try patterns w/ better complexities__ to improve current solution
     - __starting with a target runtime and working backward from there can be a powerful strategy__ for all kinds of coding interview questions.
 
