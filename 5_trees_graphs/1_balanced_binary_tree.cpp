@@ -3,7 +3,8 @@
  *  (made-up property = difference in the depth of any two leaf nodes <= 1)
  * 
  *  Time Complexity: O(n)
- *  Space Complexity: O(n)
+ *  Space Complexity: O(n) 
+ *  -> stack space: if tree is balanced, O(log n) space
  * 
  *  - traverse through tree while keeping track of the depth as we go
  *  - when reached a leaf, check depth and for condition superbalanced by comparison
