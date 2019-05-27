@@ -57,7 +57,7 @@ using namespace std;
  *   - 3) if two movies are to be different lengths, 
  *        -> check if there is movie that's sum equals flight length
  *   
- *   => while this does works, the code for making sure the same movie is not used is bit tedious ㅠㅜ
+ *   => while this does works, the code for making sure the same movie is not used is bit tedious ã… ã…œ
  *      (use two sequential loops + check for same length movies)
  */
 
