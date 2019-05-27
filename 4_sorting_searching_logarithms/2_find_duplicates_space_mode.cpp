@@ -15,7 +15,7 @@
  *     (1) breakdown to subproblem
  *         -> finding an element (if element i, FIND if duplicate exists in array)
  *         -> most efficient way: binary search
- *                                but array needs to be sorted...ã… ã…œ
+ *                                but array needs to be sorted... takes O(n logn) time
  *     
  *     (2) cut problem in half a DIFFERENT WAY
  *         -> cut the SET OF POSSIBILITIES for a repeated number along with size
