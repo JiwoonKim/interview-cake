@@ -83,7 +83,7 @@
  *               - else, duplicates exist in other half range so recurse/iterate to (1) using the other half range
  *           -> O(nlogn) time, O(1) space
  * 
- *        e. cycle detection (Floyd's turtoise and hare) -> check 8-5. find duplicate (beast mode)
+ *        e. cycle detection (Floyd's turtoise and hare) -> check 5-6. find duplicate (beast mode)
  *           -> O(n) time, O(1) space 
  *
  */

@@ -1,5 +1,5 @@
 /**
- *  Find Duplicates in array (BEAST edition)
+ *  Find Duplicates in array (BEAST edition): optimize further from 4-2. find duplicate problem
  *  -> optimize time and space 
  * 
  *  Time Complexity: O(n)
@@ -9,3 +9,11 @@
 
 #include <bits/stdc++.h>
 using namespace std;
+
+/**
+ *  find a number that appears more than once
+ *  
+*/ 
+unsigned int findRepeat(const vector<unsigned int>& theVector) {
+    
+}

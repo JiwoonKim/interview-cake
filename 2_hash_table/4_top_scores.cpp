@@ -3,9 +3,8 @@
  * 
  *  Time Complexity: O(n) 
  *  Space Complexity: O(n)
- * 
- *  (if highestPossibleScore (k) is not treated as constant,
- *   O(n + k) time & O(n + k) space )
+ *  -> if highestPossibleScore (k) is not treated as constant
+ *     : O(n + k) time & O(n + k) space )
  * 
  *  * What I learned:
  * 
