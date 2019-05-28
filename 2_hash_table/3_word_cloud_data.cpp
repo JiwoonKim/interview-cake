@@ -1,7 +1,5 @@
 /**
- *  Determine if a any permutation of the given string is a palindrome
- *  (permutation = ordering set, 
- *   palindrome = same read forward or backwards)
+ *  Count the frequency of each word in string
  * 
  *  Time Complexity: O(n)
  *  Space Complexity: O(n)
