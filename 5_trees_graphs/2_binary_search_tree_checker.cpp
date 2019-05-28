@@ -32,7 +32,7 @@
  *    3) define custom data structure (class or struct)
  * 
  *    4) can return MULTIPLE bool values using &&
- *       -> 참고) recursive version code below
+ *       -> 참고 recursive version code below
  * 
  *    5) can use DEFAULT ARGUMENTS for functions
  * 
