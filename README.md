@@ -133,6 +133,10 @@
 3. `reverse linked list inplace and outplace` (8-3. reverse linked list in-place)
 4. `use k-wide stick` (8-4. kth to last node)
 
+### 9. General Programming
+1. `define RECT and RANGE class` (9-1. rectangle love)
+2.
+
 ## NP Problems
 - feasible problems: problems solved in polynomial time
 - intractable problems: solutions taking higher than polynomial time (ex. exponential time)
