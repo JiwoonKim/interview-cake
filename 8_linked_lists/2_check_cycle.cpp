@@ -28,9 +28,6 @@ bool containsCycle(const LinkedListNode* firstNode) {
       return false;
     }
     
-    // create a unordered set to check visited nodes
-    unordered_set<LinkedListNode*> visited;
-    
     // create two pointers to traverse through list in different speeds
     const LinkedListNode* fastRunner = firstNode;
     const LinkedListNode* slowRunner = firstNode;

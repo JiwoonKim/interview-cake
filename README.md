@@ -135,7 +135,7 @@
 
 ### 9. General Programming
 1. `define RECT and RANGE class` (9-1. rectangle love)
-2.
+2. 
 
 ## NP Problems
 - feasible problems: problems solved in polynomial time
