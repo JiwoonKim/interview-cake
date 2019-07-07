@@ -2,8 +2,8 @@
  *  Calculate the overlap between two rectangles
  *  (the rectangles are always straight and never diagonal)
  * 
- *  Time Complexity: O(
- *  Space Complexity: O(
+ *  Time Complexity: O(1)
+ *  Space Complexity: O(1)
  * 
  *  * solution
  * 
