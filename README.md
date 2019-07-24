@@ -135,7 +135,10 @@
 
 ### 9. General Programming
 1. `define RECT and RANGE class` (9-1. rectangle love)
-2. 
+2. `O(1000) is more efficient than  O(n) in theory!` (9-2. temperature tracker)
+
+### 10. Bit Manipulation
+1. `use XOR to cancel out matching numbers` (10-1. stolen breakfast drone)
 
 ## NP Problems
 - feasible problems: problems solved in polynomial time
