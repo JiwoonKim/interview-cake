@@ -140,6 +140,9 @@
 ### 10. Bit Manipulation
 1. `use XOR to cancel out matching numbers` (10-1. stolen breakfast drone)
 
+### 11. Combination, Probability, Math
+1. `use math (triangular series) to optimize memory use` (11-1. which appears twice)
+
 ## NP Problems
 - feasible problems: problems solved in polynomial time
 - intractable problems: solutions taking higher than polynomial time (ex. exponential time)
