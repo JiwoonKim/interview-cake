@@ -60,7 +60,7 @@
     - stacks/queues: empty cases
     - linked lists: head node, last node, prev/current/next node pointing to empty node
 
-### * Open ended Questions (Heuristics) :fortune_cookie:
+### * Open ended Questions (Heuristics) :rocket:
 > some questions involve dealing w/ several approaches (there are no definite answers)
 - compare the approaches' pros and cons => none are perfect! (ex. 2-3. word cloud data)
 - acknowledge that there can be imperfect solutions
