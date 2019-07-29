@@ -142,6 +142,7 @@
 
 ### 11. Combination, Probability, Math
 1. `use math (triangular series) to optimize memory use` (11-1. which appears twice)
+2. `check searching condition (end >= start) for both versions of binary search - iterative & recursive` (11-2. find in ordered set)
 
 ## NP Problems
 - feasible problems: problems solved in polynomial time
