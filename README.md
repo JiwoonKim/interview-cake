@@ -1,7 +1,7 @@
-# Interview Cake
+# Interview Cake :cake:
 > solutions to interview cake questions
 
-## Start
+## :running_woman: Start
 1. `use simple example to understand the problem`
     - if needed, even create drawings
     - helps to __find how to approach the problem__
@@ -14,7 +14,7 @@
     - check the time / space bounds of current solution and __try patterns w/ better complexities__ to improve current solution
     - __starting with a target runtime and working backward from there can be a powerful strategy__ for all kinds of coding interview questions.
 
-## Optimize
+## :airplane: Optimize
 0.  `check what we should optimize for`: __time or space?__
     - efficiency depends on situation: optimization could be for time or space depending on inputs
     - use the expected characteristics of the input as reference to what we should optimize for
@@ -36,7 +36,7 @@
 3. `Use Dynamic Programming Approach`
     - does not mean to just build from 1 to n
 
-## Tips to Untangling Stucky Moments
+## :stuck_out_tongue_closed_eyes: Tips to Untangling Stucky Moments
 1. `Use a simpler version of the problem`
     - __to see if that gets us closer to a solution for the original problem__
     - use the solution to a simpler version __as a strategy to resolve a certain issue__ within the original problem
@@ -50,7 +50,7 @@
         - come back to it later; after the core is developed
     - if the helper function is trivial, you might even get away with never implementing it
 
-### Check Bugs
+### * Check Bugs :beetle:
 > check for common errors
 1. off-by-one errors (ex. indexing)
 2. returning values by if-else conditions (ex. 2-1. inflight entertainment)
@@ -60,13 +60,13 @@
     - stacks/queues: empty cases
     - linked lists: head node, last node, prev/current/next node pointing to empty node
 
-### Open ended Questions (Heuristics)
+### * Open ended Questions (Heuristics) :rocket:
 > some questions involve dealing w/ several approaches (there are no definite answers)
 - compare the approaches' pros and cons => none are perfect! (ex. 2-3. word cloud data)
 - acknowledge that there can be imperfect solutions
     - it's okay to throw exceptions to cases where you cannot solve due to input constraints (8-1. delete node)
 
-## Useful Mechanisms To Remember
+## :wrench: Useful Mechanisms To Remember
 > list of useful mechanisms (functions) to remember
 
 ### 0. General
@@ -144,7 +144,7 @@
 1. `use math (triangular series) to optimize memory use` (11-1. which appears twice)
 2. `check searching condition (end >= start) for both versions of binary search - iterative & recursive` (11-2. find in ordered set)
 
-## NP Problems
+## :vertical_traffic_light: NP Problems
 - feasible problems: problems solved in polynomial time
 - intractable problems: solutions taking higher than polynomial time (ex. exponential time)
 - __NP Problems__: problems w/ non-deterministic polynomial time
