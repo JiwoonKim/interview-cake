@@ -146,6 +146,7 @@
 3. `first define desired possible outcomes w/ equal probability` and then, `match everything else to that` (11-3. simulate 5-sided die && 11-4. simulate 7-sided die)
     - define desired possible outcomes: `increase rolling numbers to expand possible outcomes && re-roll to cut off extraneous bits for equal probability`
     - match everything else: `re-roll until outcome in desired range to reduce possible outcomes`
+> can use math and logic to solve brain teaser questions (11-5. two egg problem)
 
 ## :vertical_traffic_light: NP Problems
 - feasible problems: problems solved in polynomial time
