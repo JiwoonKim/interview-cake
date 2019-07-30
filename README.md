@@ -143,9 +143,9 @@
 ### 11. Combination, Probability, Math
 1. `use math (triangular series) to optimize memory use` (11-1. which appears twice)
 2. `check searching condition (end >= start) for both versions of binary search - iterative & recursive` (11-2. find in ordered set)
-3. `focus on each outcome's probability` (11-3. simulate 5-sided die)
-4. `increase rolling numbers to expand possible outcomes && re-roll to cut off extraneous bits for equal probability` (11-4. simulate 7-sided die)
-5. `re-roll until outcome in desired range to reduce possible outcomes` (11-3. simulate 5-sided die && 11-4. simulate 7-sided die)
+3. `first define desired possible outcomes w/ equal probability` and then, `match everything else to that` (11-3. simulate 5-sided die && 11-4. simulate 7-sided die)
+    - define desired possible outcomes: `increase rolling numbers to expand possible outcomes && re-roll to cut off extraneous bits for equal probability`
+    - match everything else: `re-roll until outcome in desired range to reduce possible outcomes`
 
 ## :vertical_traffic_light: NP Problems
 - feasible problems: problems solved in polynomial time
