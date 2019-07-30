@@ -143,6 +143,7 @@
 ### 11. Combination, Probability, Math
 1. `use math (triangular series) to optimize memory use` (11-1. which appears twice)
 2. `check searching condition (end >= start) for both versions of binary search - iterative & recursive` (11-2. find in ordered set)
+3. `focus on the result's probability: rolling multiple times doesn't matter` (11-3. simulate 5 slided die)
 
 ## :vertical_traffic_light: NP Problems
 - feasible problems: problems solved in polynomial time
