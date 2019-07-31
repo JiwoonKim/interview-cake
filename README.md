@@ -148,6 +148,14 @@
     - match everything else: `re-roll until outcome in desired range to reduce possible outcomes`
 > can use math and logic to solve brain teaser questions (11-5. two egg problem)
 
+#### 12. JavaScript
+1. scopes (12-1. javascript scope)
+    - `functional-level scope`
+    - `no if-scope or loop-scope`
+2. `variable hoisting`
+    - `var, function, function* === undefined (declared but not yet assigned`
+    - `let, const, class === ReferenceError (access denied)`
+
 ## :vertical_traffic_light: NP Problems
 - feasible problems: problems solved in polynomial time
 - intractable problems: solutions taking higher than polynomial time (ex. exponential time)
