@@ -152,9 +152,11 @@
 1. scopes (12-1. javascript scope)
     - `functional-level scope`
     - `no if-scope or loop-scope`
-2. `variable hoisting`
+2. `variable hoisting` (12-1. javascript scope)
     - `var, function, function* === undefined (declared but not yet assigned`
     - `let, const, class === ReferenceError (access denied)`
+3. `use IIFE to pass value when adding event listener` (12-2. whats wrong with this javascript)
+    - `use closure method for final return function to access the value passed to IIFE`
 
 ## :vertical_traffic_light: NP Problems
 - feasible problems: problems solved in polynomial time

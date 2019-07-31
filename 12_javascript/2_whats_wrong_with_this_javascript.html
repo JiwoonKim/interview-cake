@@ -1,0 +1,137 @@
+<!--
+ *  Given the JavaScript code (expected: click on btn -> alerts w/ according prize)
+ *  what is wrong with this code (unexpected behavior)?
+ *
+ *  * PROBLEM of this JavaScript code
+ *    : when user clicks button, alerted with 'undefined'
+ *
+ *    -> bcuz btnNum === 3 at the time when user actually clicks btn
+ *       (in for loop...
+ *              btnNum === 0, btn-0 element에 click action 추가
+ *              btnNum === 1, btn-1 element에 click action 추가
+ *              btnNum === 2, btn-2 element에 click action 추가
+ *              btnNum === 3, for loop 종료.
+ *        user click btn,
+ *              () => alert(prizes[btnNum]) 실행
+ *              BUT 이 때 btnNum === 3 && prizes[btnNum] access nonexistent index 
+ *              => returns 'undefined'
+ *
+ *  * SOLUTION
+ *    : WRAP the anonymous function in ANOTHER ANONYMOUS FUNCTION
+ *      that TAKES btnNum AS AN ARGUMENT
+ *
+ *    * onclick = (frozenBtnNum => { ... })(btnNum): add event listener where click invokes IIFE function
+ *      (1) (frozenBtnNum => { ... }) is the definition of the function (defines how it will work)
+ *
+ *      (2) ({...})(btnNum): immediately executes the function, passing btnNum to it
+ *          - at timing of adding event listener: copied btnNum into frozenBtnNum in IIFE function
+ *            (since btnNum is primitive data type, it is passed as value; copied)
+ *            -> btnNum value is frozen to that value at that time
+ *            ex. click btn-0, triggers action (0 => () => alert(prizes[0]))
+ *      => add event listener to btn w/ frozen value at that moment
+ *
+ *  
+ *  ** What I learned:
+ *     
+ *     ** Closure
+ *        : function has access to variables in the scope outside of it
+ * 
+ *        cf) Useful in creating INSTANCE VARIABLES
+ *           : variables 
+ *
+ *     ** Using IIFE for adding appropriate event listeners
+ *        : when wanting to pass certain values to event listeners and use them later on
+ *          -> use IIFE to wrap over the initial function to be triggered with event
+ *             (1) define an anonymous function wrapping around the inital function
+ *             (2) define the anonymous function as (argument) => {... return initialFunction() }
+ *             (3) pass the desired variable to anonymous function immediately: 뒤에 (value) 바로 붙이기
+ *                 => creates the anonymous function as an IIFE
+ *          => event triggers (value saved) => () => function()
+ *
+ *     ** adding event listeners: element.event = function()
+ *        = element's event triggered -> function() 실행
+ *        ex. solution explanation
+ *            : btn-1 clicked -> function(1) 실행 (여기서 1은 고정된 값)
+ *
+ *     * pass by value Vs. pass by reference
+ *       - primitives: passed by value (copied)
+ *         -> string, number, boolean, null, undefined
+ *       - objects: passed by reference 
+ *         -> changes persist even outside function (side effect)
+ *
+ */
+-->
+
+<button id="btn-0">Button 1</button>
+<button id="btn-1">Button 2</button>
+<button id="btn-2">Button 3</button>
+
+<script>
+    const prizes = ['A Unicorn!', 'A Hug!', 'Fresh Laundry!'];
+    for (var btnNum = 0; btnNum < prizes.length; btnNum++) {
+
+        // For each of our buttons, when the user clicks it...
+        document.getElementById(`btn-${btnNum}`).onclick = () => {
+
+            alert(prizes[btnNum]); // alert: prizes[3] = undefined
+            // problem: unexpected behavior
+        };
+    }
+</script>
+
+
+<!-- closure example -->
+<script>
+    const message = 'outside function scope';
+    function sayMessage() {
+        alert(message); // has access to message variable
+        // even though it's declared outside this function
+    }
+</script>
+
+<!-- use closures to create instance variables 
+     (to make certain variables private and
+      prevent accidental changes from the outside world) -->
+<script>
+    // immediately-executed anonymous function (마지막에 () 기억하기!)
+    const getUniqueId = (() => {
+        // instance variable
+        let nextGeneratedId = 0;
+
+        // getUnique(element) => 실행
+        return (element) => {
+            if (!element.id) {
+                element.id = `generated-uid-${nextGeneratedId}`;
+                nextGeneratedId++;
+            }
+            return element.id;
+        };
+    })();
+</script>
+
+<!-- pass by value Vs. pass by reference -->
+primitives (string, number, boolean, null, undefined): passed by value (copied)
+objects: passed by reference -> changes persist even outside function (side effect)
+
+<!-- SOLUTION to original problem -->
+<script>
+    const prizes = ['A Unicorn!', 'A Hug!', 'Fresh Laundry!'];
+    for (var btnNum = 0; btnNum < prizes.length; btnNum++) {
+        
+        // WRAP the orignal anonymous function w/ ANOTHER ANONYMOUS FUNCTION
+        // more precisely, an Immediately-invoked function expression (IIFE)
+        // which takes btnNum as an argument
+        document.getElementById(`btn-${btnNum}`).onclick = (frozenBtnNum => {
+
+            // since passed btnNum as IIFE below, what actually happens here
+            // : var frozenBtnNum = btnNum value at the moment event listener is added (0, 1, 2)
+            
+            // return the original anonymous function
+            return () => {
+                alert(prizes[frozenBtnNum]); // use of closure (can access outer scope variable)
+                // since btnNum's value at each moment is saved in frozenBtnNum,
+                // can use that value when user actually clicks the btn later on
+            };
+        })(btnNum); // PASS copy of current btnNum value to IIFE 
+    }
+  </script>
