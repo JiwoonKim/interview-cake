@@ -27,6 +27,10 @@
  *           BUT, (var, function, function*) can be accessed and return 'undefined'
  *           while (const, let, class) cannot be accessed at all (throws ReferenceError)
  * 
+ *       => hoisting can cause UNEXPECTED BEHAVIOR
+ *          so a good way to keep things clear is to 
+ *          ALWAYS DELCARE VARIABLES AT THE TOP OF THE SCOPE!!
+ * 
  */
 
 var text = 'outside';
