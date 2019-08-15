@@ -148,7 +148,7 @@
     - match everything else: `re-roll until outcome in desired range to reduce possible outcomes`
 > can use math and logic to solve brain teaser questions (11-5. two egg problem)
 
-#### 12. JavaScript
+### 12. JavaScript
 1. scopes (12-1. javascript scope)
     - `functional-level scope`
     - `no if-scope or loop-scope`
@@ -157,6 +157,9 @@
     - `let, const, class === ReferenceError (access denied)`
 3. `use IIFE to pass value when adding event listener` (12-2. whats wrong with this javascript)
     - `use closure method for final return function to access the value passed to IIFE`
+    
+### 13. System Design
+1. 
 
 ## :vertical_traffic_light: NP Problems
 - feasible problems: problems solved in polynomial time
