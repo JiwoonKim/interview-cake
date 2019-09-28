@@ -50,7 +50,7 @@
         - come back to it later; after the core is developed
     - if the helper function is trivial, you might even get away with never implementing it
 
-### * Check Bugs :beetle:
+### :beetle: Check Bugs 
 > check for common errors
 1. off-by-one errors (ex. indexing)
 2. returning values by if-else conditions (ex. 2-1. inflight entertainment)
