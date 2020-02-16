@@ -83,7 +83,7 @@
     - see if negating the condition and break / return value logic works cleaner or simplier in logic
 
 ### 1. Array and String Manipulation
-1. `merge ranges by using sort + check overlapping condition` ([1-1. merge meeting times](https://github.com/JiwoonKim/interview-cake/blob/master/1_array_string/1_merge_meeting_times.cpp)
+1. `merge ranges by using sort + check overlapping condition` ([1-1. merge meeting times](https://github.com/JiwoonKim/interview-cake/blob/master/1_array_string/1_merge_meeting_times.cpp))
 2. `swap chars in string in-place` ([1-2. reverse string inplace](https://github.com/JiwoonKim/interview-cake/blob/master/1_array_string/2_reverse_string_inplace.cpp))
 3. `parse words from string` ([1-3. reverse words inplace](https://github.com/JiwoonKim/interview-cake/blob/master/1_array_string/3_reverse_words_inplace.cpp))
 4. `use sort or take advantage of sort` ([1-4. merge sorted arrays](https://github.com/JiwoonKim/interview-cake/blob/master/1_array_string/4_merge_sorted_arrays.cpp) & [1-5. single riffle shuffle](https://github.com/JiwoonKim/interview-cake/blob/master/1_array_string/5_single_riffle_shuffle.cpp))
@@ -95,15 +95,15 @@
 4. `define classes to tie methods together` ([2-3. word cloud data](https://github.com/JiwoonKim/interview-cake/blob/master/2_hash_table/3_word_cloud_data.cpp) & [2-5. find duplicate files](https://github.com/JiwoonKim/interview-cake/blob/master/2_hash_table/5_find_duplicate_files.cpp))
 
 ### 3. Greedy Algorithms
-1. `keep additional values to update best answer so far` (3-1. apple stocks) => __greedy algorithm approach__
-2. `compare values in vector` (3-1. apple stocks)
-3. `use nested max / min` (3-2. highest product of 3)
-4. `Fisher-Yates shuffle algorithm` (3-4. inplace shuffle) => __to guarantee uniform distribution__
+1. `keep additional values to update best answer so far` ([3-1. apple stocks](https://github.com/JiwoonKim/interview-cake/blob/master/3_greedy_algorithm/1_apple_stocks.cpp)) => __greedy algorithm approach__
+2. `compare values in vector` ([3-1. apple stocks](https://github.com/JiwoonKim/interview-cake/blob/master/3_greedy_algorithm/1_apple_stocks.cpp))
+3. `use nested max / min` ([3-2. highest product of 3](https://github.com/JiwoonKim/interview-cake/blob/master/3_greedy_algorithm/2_highest_product_3.cpp))
+4. `Fisher-Yates shuffle algorithm` ([3-4. inplace shuffle](https://github.com/JiwoonKim/interview-cake/blob/master/3_greedy_algorithm/4_inplace_shuffle.cpp)) => __to guarantee uniform distribution__
 
 ### 4. Sorting, Searching, and Logarithms
-1. `binary search - make sure sorted` (4-1. find rotation point)
-2. `use opposite of sorted condition to find pivot point` (4-1. find rotation point)
-3. `pigeonhole principle` (4-2. find duplicates - space mode) => try to think of pigeonholes and pigeon analogy: __"what fits into what"__
+1. `binary search - make sure sorted` ([4-1. find rotation point](https://github.com/JiwoonKim/interview-cake/blob/master/4_sorting_searching_logarithms/1_find_rotation_point.cpp))
+2. `use opposite of sorted condition to find pivot point` ([4-1. find rotation point](https://github.com/JiwoonKim/interview-cake/blob/master/4_sorting_searching_logarithms/1_find_rotation_point.cpp))
+3. `pigeonhole principle` ([4-2. find duplicates - space mode](https://github.com/JiwoonKim/interview-cake/blob/master/4_sorting_searching_logarithms/2_find_duplicates_space_mode.cpp)) => try to think of pigeonholes and pigeon analogy: __"what fits into what"__
 
 ### 5. Trees and Graphs
 1. `define binary tree class` (5-1. balanced binary tree)
