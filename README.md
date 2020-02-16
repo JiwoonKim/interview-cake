@@ -83,16 +83,16 @@
     - see if negating the condition and break / return value logic works cleaner or simplier in logic
 
 ### 1. Array and String Manipulation
-1. `merge ranges by using sort + check overlapping condition` (1-1. merge meeting times)
-2. `swap chars in string in-place` (1-2. reverse string inplace)
-3. `parse words from string` (1-3. reverse words inplace)
-4. `use sort or take advantage of sort` (1-4. merge sorted arrays & 5. single riffle shuffle)
+1. `merge ranges by using sort + check overlapping condition` ([1-1. merge meeting times](https://github.com/JiwoonKim/interview-cake/blob/master/1_array_string/1_merge_meeting_times.cpp)
+2. `swap chars in string in-place` ([1-2. reverse string inplace](https://github.com/JiwoonKim/interview-cake/blob/master/1_array_string/2_reverse_string_inplace.cpp))
+3. `parse words from string` ([1-3. reverse words inplace](https://github.com/JiwoonKim/interview-cake/blob/master/1_array_string/3_reverse_words_inplace.cpp))
+4. `use sort or take advantage of sort` ([1-4. merge sorted arrays](https://github.com/JiwoonKim/interview-cake/blob/master/1_array_string/4_merge_sorted_arrays.cpp) & [1-5. single riffle shuffle](https://github.com/JiwoonKim/interview-cake/blob/master/1_array_string/5_single_riffle_shuffle.cpp))
 
 ### 2. Hashing and Hash Tables
-1. `find pairs in single loop` (2-1. inflight entertainment) a.k.a __one-pass hash table__
-2. `parse words from string (more complex)` (2-3. word cloud data)
-3. `counting` (2-4. top scores)
-4. `define classes to tie methods together` (2-3. word cloud data & 2-5. find duplicate files)
+1. `find pairs in single loop` ([2-1. inflight entertainment](https://github.com/JiwoonKim/interview-cake/blob/master/2_hash_table/1_inflight_entertainment.cpp)) a.k.a __one-pass hash table__
+2. `parse words from string (more complex)` ([2-3. word cloud data](https://github.com/JiwoonKim/interview-cake/blob/master/2_hash_table/3_word_cloud_data.cpp))
+3. `counting` ([2-4. top scores](https://github.com/JiwoonKim/interview-cake/blob/master/2_hash_table/4_top_scores.cpp))
+4. `define classes to tie methods together` ([2-3. word cloud data](https://github.com/JiwoonKim/interview-cake/blob/master/2_hash_table/3_word_cloud_data.cpp) & [2-5. find duplicate files](https://github.com/JiwoonKim/interview-cake/blob/master/2_hash_table/5_find_duplicate_files.cpp))
 
 ### 3. Greedy Algorithms
 1. `keep additional values to update best answer so far` (3-1. apple stocks) => __greedy algorithm approach__
