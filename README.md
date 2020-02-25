@@ -106,56 +106,56 @@
 3. `pigeonhole principle` ([4-2. find duplicates - space mode](https://github.com/JiwoonKim/interview-cake/blob/master/4_sorting_searching_logarithms/2_find_duplicates_space_mode.cpp)) => try to think of pigeonholes and pigeon analogy: __"what fits into what"__
 
 ### 5. Trees and Graphs
-1. `define binary tree class` (5-1. balanced binary tree)
-2. `DFS to hit leaf nodes in tree faster` (5-1. balanced binary tree)
-3. `use DFS for better space complexity when tree is balanced` (5-2. binary search tree checker)
-4. `can return combination of bool values for recursive DFS using &&` (5-2. binary search tree checker)
-5. `how to find element in BST` (5-3. 2nd largest item in BST)
-6. `define graph class` (5-4. graph coloring)
-7. `backtracking using unordered map` (5-5. mesh message)
-8. `use array positions to find cycles` (5-6. find duplicates - beast edition)
+1. `define binary tree class` ([5-1. balanced binary tree](https://github.com/JiwoonKim/interview-cake/blob/master/5_trees_graphs/1_balanced_binary_tree.cpp))
+2. `DFS to hit leaf nodes in tree faster` ([5-1. balanced binary tree](https://github.com/JiwoonKim/interview-cake/blob/master/5_trees_graphs/1_balanced_binary_tree.cpp))
+3. `use DFS for better space complexity when tree is balanced` ([5-2. binary search tree checker](https://github.com/JiwoonKim/interview-cake/blob/master/5_trees_graphs/2_binary_search_tree_checker.cpp))
+4. `can return combination of bool values for recursive DFS using &&` ([5-2. binary search tree checker](https://github.com/JiwoonKim/interview-cake/blob/master/5_trees_graphs/2_binary_search_tree_checker.cpp))
+5. `how to find element in BST` ([5-3. 2nd largest item in BST](https://github.com/JiwoonKim/interview-cake/blob/master/5_trees_graphs/3_2nd_largest_item_in_bst.cpp))
+6. `define graph class` ([5-4. graph coloring](https://github.com/JiwoonKim/interview-cake/blob/master/5_trees_graphs/4_graph_coloring.cpp))
+7. `backtracking using unordered map` ([5-5. mesh message](https://github.com/JiwoonKim/interview-cake/blob/master/5_trees_graphs/5_mesh_message.cpp))
+8. `use array positions to find cycles` ([5-6. find duplicates - beast edition](https://github.com/JiwoonKim/interview-cake/blob/master/5_trees_graphs/6_find_duplicates_beast_edition.cpp))
 
 ### 6. Dynamic Programming & Recursion
-1. `how to create string permutations` (6-1. recursive string permutations)
-2. `how to solve unbounded knapsack problem` (6-3. make change & 6-4. cake thief)
+1. `how to create string permutations` ([6-1. recursive string permutations](https://github.com/JiwoonKim/interview-cake/blob/master/6_dp_recursion/1_recursive_string_permutations.cpp))
+2. `how to solve unbounded knapsack problem` ([6-3. make change](https://github.com/JiwoonKim/interview-cake/blob/master/6_dp_recursion/3_make_change.cpp) & [6-4. cake thief](https://github.com/JiwoonKim/interview-cake/blob/master/6_dp_recursion/4_cake_thief.cpp))
 
 ### 7. Stacks and Queues
-1. `make sure not empty when pop / top / front` (7-1. largest stack)
-2. `how to implement queue using two stacks` (7-2. queue with two stacks)
-3. `use stack to check parenthesis` (7-3. parenthesis matching & 7-4. bracket validator)
+1. `make sure not empty when pop / top / front` ([7-1. largest stack](https://github.com/JiwoonKim/interview-cake/blob/master/7_stacks_queues/1_largest_stack.cpp))
+2. `how to implement queue using two stacks` ([7-2. queue with two stacks](https://github.com/JiwoonKim/interview-cake/blob/master/7_stacks_queues/2_queue_with_two_stacks.cpp))
+3. `use stack to check parenthesis` ([7-3. parenthesis matching](https://github.com/JiwoonKim/interview-cake/blob/master/7_stacks_queues/3_parenthesis_matching.cpp) & [7-4. bracket validator](https://github.com/JiwoonKim/interview-cake/blob/master/7_stacks_queues/4_bracket_validator.cpp))
     - if only one kind of parenthesis, `can use count to save space`
-4. `use unordered set to check if something is part of group or not` (7-4. bracket validator)
-5. `use unordered map to find the matching other pair for something` (7-4. bracket validator)
+4. `use unordered set to check if something is part of group or not` ([7-4. bracket validator](https://github.com/JiwoonKim/interview-cake/blob/master/7_stacks_queues/4_bracket_validator.cpp))
+5. `use unordered map to find the matching other pair for something` ([7-4. bracket validator](https://github.com/JiwoonKim/interview-cake/blob/master/7_stacks_queues/4_bracket_validator.cpp))
 
 ### 8. Linked Lists
-1. `in-place modifications to delete node` (8-1. delete node)
-2. `two runner approach to check cycle` (8-2. check cycle)
-3. `reverse linked list inplace and outplace` (8-3. reverse linked list in-place)
-4. `use k-wide stick` (8-4. kth to last node)
+1. `in-place modifications to delete node` ([8-1. delete node](https://github.com/JiwoonKim/interview-cake/blob/master/8_linked_lists/1_delete_node.cpp))
+2. `two runner approach to check cycle` ([8-2. check cycle](https://github.com/JiwoonKim/interview-cake/blob/master/8_linked_lists/2_check_cycle.cpp))
+3. `reverse linked list inplace and outplace` ([8-3. reverse linked list in-place](https://github.com/JiwoonKim/interview-cake/blob/master/8_linked_lists/3_reverse_linked_list_inplace.cpp))
+4. `use k-wide stick` ([8-4. kth to last node](https://github.com/JiwoonKim/interview-cake/blob/master/8_linked_lists/4_kth_to_last_node.cpp))
 
 ### 9. General Programming
-1. `define RECT and RANGE class` (9-1. rectangle love)
-2. `O(1000) is more efficient than  O(n) in theory!` (9-2. temperature tracker)
+1. `define RECT and RANGE class` ([9-1. rectangle love](https://github.com/JiwoonKim/interview-cake/blob/master/9_general_programming/1_rectangle_love.cpp))
+2. `O(1000) is more efficient than  O(n) in theory!` ([9-2. temperature tracker](https://github.com/JiwoonKim/interview-cake/blob/master/9_general_programming/2_temperature_tracker.cpp))
 
 ### 10. Bit Manipulation
-1. `use XOR to cancel out matching numbers` (10-1. stolen breakfast drone)
+1. `use XOR to cancel out matching numbers` ([10-1. stolen breakfast drone](https://github.com/JiwoonKim/interview-cake/tree/master/10_bit_manipulation))
 
 ### 11. Combination, Probability, Math
-1. `use math (triangular series) to optimize memory use` (11-1. which appears twice)
-2. `check searching condition (end >= start) for both versions of binary search - iterative & recursive` (11-2. find in ordered set)
-3. `first define desired possible outcomes w/ equal probability` and then, `match everything else to that` (11-3. simulate 5-sided die && 11-4. simulate 7-sided die)
+1. `use math (triangular series) to optimize memory use` ([11-1. which appears twice](https://github.com/JiwoonKim/interview-cake/blob/master/11_combination_probability_math/1_which_appears_twice.cpp))
+2. `check searching condition (end >= start) for both versions of binary search - iterative & recursive` ([11-2. find in ordered set](https://github.com/JiwoonKim/interview-cake/blob/master/11_combination_probability_math/2_find_in_ordered_set.cpp))
+3. `first define desired possible outcomes w/ equal probability` and then, `match everything else to that` ([11-3. simulate 5-sided die](https://github.com/JiwoonKim/interview-cake/blob/master/11_combination_probability_math/3_simulate_5_sided_die.cpp) && [11-4. simulate 7-sided die](https://github.com/JiwoonKim/interview-cake/blob/master/11_combination_probability_math/4_simulate_7_sided_die.cpp))
     - define desired possible outcomes: `increase rolling numbers to expand possible outcomes && re-roll to cut off extraneous bits for equal probability`
     - match everything else: `re-roll until outcome in desired range to reduce possible outcomes`
-> can use math and logic to solve brain teaser questions (11-5. two egg problem)
+> can use math and logic to solve brain teaser questions ([11-5. two egg problem](https://github.com/JiwoonKim/interview-cake/blob/master/11_combination_probability_math/5_two_egg_problem.cpp))
 
 ### 12. JavaScript
 1. scopes (12-1. javascript scope)
     - `functional-level scope`
     - `no if-scope or loop-scope`
-2. `variable hoisting` (12-1. javascript scope)
+2. `variable hoisting` ([12-1. javascript scope](https://github.com/JiwoonKim/interview-cake/blob/master/12_javascript/1_javascript_scope.js))
     - `var, function, function* === undefined (declared but not yet assigned`
     - `let, const, class === ReferenceError (access denied)`
-3. `use IIFE to pass value when adding event listener` (12-2. whats wrong with this javascript)
+3. `use IIFE to pass value when adding event listener` ([12-2. whats wrong with this javascript](https://github.com/JiwoonKim/interview-cake/blob/master/12_javascript/2_whats_wrong_with_this_javascript.html))
     - `use closure method for final return function to access the value passed to IIFE`
     
 ### 13. System Design
