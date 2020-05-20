@@ -138,7 +138,7 @@
 2. `O(1000) is more efficient than  O(n) in theory!` ([9-2. temperature tracker](https://github.com/JiwoonKim/interview-cake/blob/master/9_general_programming/2_temperature_tracker.cpp))
 
 ### 10. Bit Manipulation
-1. `use XOR to cancel out matching numbers` ([10-1. stolen breakfast drone](https://github.com/JiwoonKim/interview-cake/tree/master/10_bit_manipulation))
+1. `use XOR to cancel out matching numbers` ([10-1. stolen breakfast drone](https://github.com/JiwoonKim/interview-cake/blob/master/10_bit_manipulation/1_stolen_breakfast_drone.cpp))
 
 ### 11. Combination, Probability, Math
 1. `use math (triangular series) to optimize memory use` ([11-1. which appears twice](https://github.com/JiwoonKim/interview-cake/blob/master/11_combination_probability_math/1_which_appears_twice.cpp))
